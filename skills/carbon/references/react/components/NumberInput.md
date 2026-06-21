@@ -1,0 +1,100 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/NumberInput/NumberInput.mdx
+
+# NumberInput
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/NumberInput)
+&nbsp;|&nbsp;
+[Usage guidelines](https://www.carbondesignsystem.com/components/number-input/usage)
+&nbsp;|&nbsp;
+[Accessibility](https://www.carbondesignsystem.com/components/number-input/accessibility)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Skeleton state](#skeleton-state)
+- [AI Label](#ai-label)
+- [`step` values](#step-values)
+- [With type of text](#with-type-of-text)
+  - [Formatting with `locale` and `formatOptions`](#formatting-with-locale-and-formatoptions)
+- [Component API](#component-api)
+- [Feedback](#feedback)
+
+## Overview
+
+## Skeleton state
+
+## AI Label
+
+## `step` values
+
+When stepper buttons increment or decrement an empty input, the following
+applies:
+
+- Incrementing always starts at `min`
+- Decrementing always starts at `max`
+- If no `min` or `max` is provided, the input will be set to 0
+
+## With type of text
+
+The input `type` can be set to `text` to avoid the various limitations and ux
+issues that surround `input type="number"`.
+
+Setting `type="text"` changes the NumberInput behavior in the following ways:
+
+- On blur of the input, the entered value is parsed and formatted based on the
+  given `locale` (defaults to `en-US`) and `formatOptions` props.
+- `onChange` is only called on blur of the input, and the given `event` may be a
+  MouseEvent, FocusEvent, or KeyboardEvent.
+- The wheel/spinbox functionality is disabled, `disableWheel` has no effect.
+- `inputMode` and `pattern` props should be configured to restrict and guide
+  user input.
+
+### Formatting with `locale` and `formatOptions`
+
+When `type="text"`, the user input is parsed and formatted to the `locale` on:
+
+- Blur of the input
+- Click of stepper buttons
+- Keydown of ArrowUp or ArrowDown keys
+
+The formatOptions prop can be used to further customize the formatting. It
+matches the signature of the
+[Intl.NumberFormat API options](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat#options).
+For example, percent style can be used:
+
+```
+<NumberInput
+  type="text"
+  value={0.15} // 15%
+  step={0.05} // 5%
+  formatOptions={{ style: 'percent' }}
+/>
+```
+
+### Configurable start value with stepStartValue
+
+A step start value can be configured to provide the user a more beneficial
+starting point when the input is empty and an increment or decrement button is
+clicked. This can be used in situations where zero is not within the min/max or
+there is a more sensible default starting value, such as the current year when
+asking the user for a year. Since this allows the input to still initially be
+empty, it ensures on submission of the form that the user has actually
+interacted with the input and inserted a value.
+
+```
+<NumberInput
+  type="text"
+  value={1000}
+  stepStartValue={10}
+/>
+```
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://react.carbondesignsystem.com)._
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/react/src/components/NumberInput/NumberInput.mdx).

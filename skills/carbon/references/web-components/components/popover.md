@@ -1,0 +1,89 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/web-components/src/components/popover/popover.mdx
+
+# Popover
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/web-components/src/components/popover)
+&nbsp;|&nbsp;
+[Usage guidelines](https://www.carbondesignsystem.com/components/popover/usage)
+&nbsp;|&nbsp;
+[Accessibility](https://www.carbondesignsystem.com/components/popover/accessibility)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Visibility](#Visibility)
+- [Alignment](#Alignment)
+- [Appearance](#Appearance)
+- [Component API](#component-api)
+- [CDN](#cdn)
+- [Feedback](#feedback)
+
+## Overview
+
+The `cds-popover` is a primitive component used to build custom components which
+render over other elements on the page.
+
+The popover component accepts two items as children: a trigger element and a
+`cds-popover-content` which contains the content to be rendered inside of the
+popover.
+
+The `open` attribute allows you to control the visibility of the popover. This
+is often tracked in state and is toggled based on the trigger render inside of
+the popover. A trigger must be an interactive element and in most cases it will
+be a `<button />`.
+
+## Alignment
+
+The `align` attribute allows you to specify where your content should be placed
+relative to the popover. For example, if you provide `align="top"` to the
+popover component then the popover will render above your component. Similarly,
+if you provide `align="bottom"` then the popover will render below your
+component.
+
+You can also configure the placement of the caret, if it is enabled, by choosing
+between `left` and `right` or `bottom` and `top`, depending on where your
+popover is being rendered.
+
+If you are using `align="top"`, then you can choose between `align="top-left"`
+and `align="top-right"`. These options will place the caret closer to the left
+or right edges of the popover.
+
+If you are using `align="left"` or `align="right"`, you can use `top` or
+`bottom` to control this alignment.
+
+## Appearance
+
+The popover component has several attributes which you can use to customize its
+appearance, including:
+
+- `caret`: to conditionally display a `caret` or render the popover directly
+  beside the trigger element
+- `dropShadow`: to display a drop shadow on the popover content
+- `highContrast`: to display a high contrast variant of the popover
+- `border`: to display a border on the popover
+- `backgroundToken`: to change the token for the color of the background
+
+## Component API
+
+## `cds-popover`
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+
+## `cds-popover-content`
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+
+## CDN
+
+This component is also available via CDN.
+
+```html
+// SPECIFIC VERSION (available starting v2.0.0)
+<script type="module" src="https://1.www.s81c.com/common/carbon/web-components/version/v2.57.0/popover.min.js"></script>
+```
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/web-components/src/components/popover/popover.mdx).

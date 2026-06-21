@@ -1,0 +1,66 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/Heading/Heading.mdx
+
+# Heading
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/master/packages/react/src/components/Heading)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Component API](#component-api)
+  - [Section as](#section-as)
+  - [Custom level](#custom-level)
+- [Feedback](#feedback)
+
+## Overview
+
+For people using screen readers, headings in HTML are one of the most common
+ways to navigate a page. Correctly using headings and levels helps with
+understanding a page and its hierarchy and can be used to jump between sections
+on a page.
+
+Normally, in a component you would have to specify the heading level manually.
+This can become problematic if your component is used in various parts of a page
+where the heading level needs to be different.
+
+To help address this, the `Heading` component will automatically infer the
+appropriate heading level without you having to manually specify it. To do this,
+you use the `Section` component for each section of your page. Every `Heading`
+component in that `Section` will use the correct heading level.
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://react.carbondesignsystem.com)._
+
+### Section as
+
+You can use the `as` prop to support rendering the outermost node in the
+component with a specific tag, or custom component, as opposed to the default
+`<section>` that is used.
+
+For example, to render an `article` you could use `as="article"`:
+
+```jsx
+<Section as="article">
+  <Heading>Your heading</Heading>
+</Section>
+```
+
+### Custom level
+
+You can use the `level` prop to override the level of a section:
+
+```jsx
+<Section level={5}>
+  <Heading>rendered as h5</Heading>
+  <Section>
+    <Heading>rendered as h6</Heading>
+  </Section>
+</Section>
+```
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/react/src/components/Heading/Heading.mdx).

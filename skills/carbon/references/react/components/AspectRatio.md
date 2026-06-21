@@ -1,0 +1,67 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/AspectRatio/AspectRatio.mdx
+
+# AspectRatio
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/AspectRatio)
+&nbsp;|&nbsp;
+[Usage guidelines](https://carbondesignsystem.com/elements/2x-grid/overview/#aspect-ratio)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Component API](#component-api)
+  - [AspectRatio as](#aspectratio-as)
+  - [AspectRatio className](#aspectratio-classname)
+- [Feedback](#feedback)
+
+## Overview
+
+The `AspectRatio` component supports rendering your content in a specific aspect
+ratio through the `ratio` prop. This prop will specify the proportion between
+the width and the height of your content. The width will be determined by
+spanning 100% of the space available in your layout, and the height will be
+determined by the ratio that you specified.
+
+To see the full list of ratios supported by the `ratio` prop, check out the prop
+table in the [Component API](#component-api) section below.
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://react.carbondesignsystem.com)._
+
+### AspectRatio as
+
+You can use the `as` prop to support rendering the outermost node in the
+component with a specific tag, or custom component, as opposed to the default
+`<div>` that is used.
+
+For example, to render an `article` you could use `as="article"`:
+
+```jsx
+<AspectRatio as="article" ratio="4x3">
+  Your content
+</AspectRatio>
+```
+
+You can also provide custom components, for example:
+
+```jsx
+function Article({ children, ...rest }) {
+  return <article {...rest}>{children}</article>;
+}
+
+<AspectRatio as={Article} ratio="4x3">
+  Your content
+</AspectRatio>;
+```
+
+### AspectRatio className
+
+The `className` prop passed into `AspectRatio` will be forwarded to the
+outermost node in the component.
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/react/src/components/AspectRatio/AspectRatio.mdx).

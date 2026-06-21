@@ -1,0 +1,162 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/ContainedList/ContainedList.mdx
+
+# ContainedList
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/ContainedList)
+&nbsp;|&nbsp;
+[Usage guidelines](https://carbondesignsystem.com/components/contained-list/usage/)
+
+## Table of Contents
+
+- [Overview](#overview)
+  - [Search](#search)
+    - [Expandable Search](#expandable-search)
+    - [Persistent Search](#persistent-search)
+    - [Usage Examples](#usage-examples)
+    - [Disclosed](#disclosed)
+    - [With Actions](#with-actions)
+    - [With Icons](#with-icons)
+    - [With Interactive Items](#with-interactive-items)
+    - [With Interactive Items and Actions](#with-interactive-items-and-actions)
+    - [With List Title Decorators](#with-list-title-decorators)
+    - [With Layer](#with-layer)
+- [Component API](#component-api)
+- [Feedback](#feedback)
+
+## Overview
+
+### Search
+
+#### Expandable Search
+
+Within the Contained List you can pass in an `ExpandableSearch` component within
+the `action` prop as seen below. The `ExpandableSearch` will give you the
+capability to expand and collapse the search bar within the title. However, we
+do not support passing in the `ExpandableSearch` within the title action prop
+while passing in the `Search` component as a child at the same time. If this
+happens, the `ExpandableSearch` in the title will override any other `Search`
+passed in as a child. To prevent this potential conflict, we have added
+functionality to support both designs and both use cases. Please see
+[Persistent Search](#persistent-search) docs below.
+
+```js
+export const WithExpandableSearch = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  const handleChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  useEffect(() => {
+    const listItems = [
+      'List item 1',
+      'List item 2',
+      'List item 3',
+      'List item 4',
+    ];
+
+    const results = listItems.filter((listItem) =>
+      listItem.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setSearchResults(results);
+  }, [searchTerm]);
+
+  return (
+    <ContainedList
+      label="List title"
+      kind="on-page"
+      action={
+        <ExpandableSearch
+          placeholder="Filterable search"
+          value={searchTerm}
+          onChange={handleChange}
+          closeButtonLabelText="Clear search input"
+          size="lg"
+        />
+      }>
+      {searchResults.map((listItem, key) => (
+        <ContainedListItem key={key}>{listItem}</ContainedListItem>
+      ))}
+    </ContainedList>
+  );
+};
+```
+
+#### Persistent Search
+
+We have added in the capability to pass down the `Search` component as a child
+of `ContainedList`. The `Search` component itself is not a prop but does render
+with specific styling such that the `Search` bar appears below the Contained
+List title as opposed to rendering inline. If you would like the Search to
+render inline to the Contained List title, please see the
+[Expandable Search](#expandable-search) docs above The `Search` component will
+also remain persistent under the title, so that it remains visible on scroll,
+when there are many list items passed in.
+
+```js
+export const WithPersistentSearch = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  const handleChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  useEffect(() => {
+    const listItems = [
+      'List item 1',
+      'List item 2',
+      'List item 3',
+      'List item 4',
+    ];
+
+    const results = listItems.filter((listItem) =>
+      listItem.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setSearchResults(results);
+  }, [searchTerm]);
+
+  return (
+    <ContainedList label="List title" kind="on-page" action={''}>
+      <Search
+        placeholder="Filterable search"
+        value={searchTerm}
+        onChange={handleChange}
+        closeButtonLabelText="Clear search input"
+        size="lg"
+      />
+      {searchResults.map((listItem, key) => (
+        <ContainedListItem key={key}>{listItem}</ContainedListItem>
+      ))}
+    </ContainedList>
+  );
+};
+```
+
+`ContainedList.ContainedListItem` is deprecated, use
+`import { ContainedListItem } from '@carbon/react` import instead.
+
+#### Usage Examples
+
+#### Disclosed
+
+#### With Actions
+
+#### With Icons
+
+#### With Interactive Items
+
+#### With Interactive Items and Actions
+
+#### With List Title Decorators
+
+#### With Layer
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://react.carbondesignsystem.com)._
+
+## Feedback
+
+Help us improve this component by providing feedback through, asking questions
+on Slack, or updating this file on GitHub
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/react/src/components/ContainedList/ContainedList.mdx).

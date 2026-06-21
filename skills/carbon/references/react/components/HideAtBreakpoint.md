@@ -1,0 +1,18 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/HideAtBreakpoint/HideAtBreakpoint.mdx
+
+# Hide At Breakpoint
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/HideAtBreakpoint)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Feedback](#feedback)
+
+## Overview
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/HideAtBreakpoint/HideAtBreakpoint.mdx).

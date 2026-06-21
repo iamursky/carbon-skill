@@ -1,0 +1,203 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/Tag/Tag.mdx
+
+# Tag
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/Tag)
+&nbsp;|&nbsp;
+[Usage guidelines](https://www.carbondesignsystem.com/components/tag/usage)
+&nbsp;|&nbsp;
+[Accessibility](https://www.carbondesignsystem.com/components/tag/accessibility)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Read Only](#read-only)
+- [Dismissible](#dismissible)
+- [Selectable](#selectable)
+- [Operational](#operational)
+- [With AI Label](#with-ai-label)
+- [Skeleton](#skeleton)
+- [Component API](#component-api)
+- [Feedback](#feedback)
+
+## Overview
+
+Tags can be used to categorize items. Use short labels for easy scanning. Use
+two words only if necessary to describe the status and differentiate it from
+other tags.
+
+## Read Only
+
+Read-only tags are used to categorize, are used for labeling, and do not have
+interactive functionality. Read-only tags come in several color choices and can
+use optional decorative icons to delineate between multiple categories.
+
+## Dismissible
+
+Dismissible tags are used to remove tags that can be filtered out by the user.
+
+When to use:
+
+- Use DismissibleTag when you want to allow users to easily clear or dismiss
+  specific filters applied to items.
+
+Here it is a sample code to help you get started.
+
+```js
+const tags = [
+  {
+    type: 'red',
+    text: 'Tag content with a long text description',
+    tagTitle: 'Provide a custom title to the tag',
+  },
+  {
+    type: 'magenta',
+    text: 'Tag content 1',
+  },
+  {
+    type: 'purple',
+    text: 'Tag content 2',
+  },
+];
+
+const [renderedTags, setRenderedTags] = useState(tags);
+
+const handleClose = (removedTag) => {
+  const newTags = renderedTags.filter((tag) => tag !== removedTag);
+  setRenderedTags(newTags);
+};
+
+const resetTabs = () => {
+  setRenderedTags(tags);
+};
+
+return (
+  <>
+    <Button style={{ marginBottom: '3rem' }} onClick={resetTabs}>
+      Reset
+    </Button>
+    <br />
+    <div aria-label="Dismissible tags" role="group">
+      {renderedTags.map((tag, index) => (
+        <DismissibleTag
+          key={index}
+          type={tag.type}
+          className="some-class"
+          renderIcon={Asleep}
+          text={tag.text}
+          tagTitle={tag.tagTitle}
+          title="Dismiss"
+          onClose={(e) => {
+            e.preventDefault();
+            handleClose(tag);
+          }}
+          {...args}
+        />
+      ))}
+    </div>
+  </>
+);
+```
+
+## Selectable
+
+Selectable tags are used to select or unselect single or multiple items.
+Selectable tags can also be used in filtering by label scenarios when they do
+not need to be dismissed.
+
+When to use:
+
+- Use selectable tags to toggle between a selected or unselected state.
+- Use when needing to filter without an explicit dismissable functionality. (We
+  need to be a little more specific around filtering for selectable versus
+  dismissable tags).
+
+Here it is a sample code to help you get started.
+
+```js
+const tags = [
+  {
+    id: 1,
+    text: 'Tag content with a long text description',
+  },
+  {
+    id: 2,
+    text: 'Tag content 1',
+  },
+  {
+    id: 3,
+    text: 'Tag content 2',
+  },
+  {
+    id: 4,
+    text: 'Tag content 3',
+  },
+];
+
+const [selectedTags, setSelectedTags] = useState([
+  {
+    id: 2,
+    text: 'Tag content 1',
+  },
+]);
+
+const handleChange = (tag, selected) => {
+  const nextSelectedTags = selected
+    ? [...selectedTags, tag]
+    : selectedTags.filter((t) => t.id !== tag.id);
+
+  console.log('Selected tags array: ', nextSelectedTags);
+  setSelectedTags(nextSelectedTags);
+};
+
+return (
+  <div aria-label="Selectable tags" role="group">
+    {tags.map((tag, index) => (
+      <SelectableTag
+        key={index}
+        renderIcon={Asleep}
+        text={tag.text}
+        className="some-class"
+        selected={selectedTags.find((t) => t.id === tag.id)}
+        onChange={(selected) => handleChange(tag, selected)}
+        {...args}
+      />
+    ))}
+  </div>
+);
+```
+
+## Operational
+
+Operational tags enable the user to view a list of all items associated with a
+given tag in different ways.
+
+When to use:
+
+- Use to view a list of items with the same tag in a popover, or breadcrumb
+  detail view.
+
+When not to use:
+
+- Do not use operational tags as a replacement for links that direct you to an
+  entirely different page or launch you out to another tab.
+- Do not use in combination with Dismissable tags. Instead, consider letting the
+  user enter an "edit mode" to dismiss tags.
+
+## With AI Label
+
+Tag with AI label is now stable for Read Only tags. This addition changes the
+visual appearance of the component and introduces an AI explainability feature
+when AI is present in the component.
+
+## Skeleton
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://react.carbondesignsystem.com)._
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/Tag/Tag.tsx).

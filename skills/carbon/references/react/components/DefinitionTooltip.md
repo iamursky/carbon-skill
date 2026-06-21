@@ -1,0 +1,56 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/Tooltip/DefinitionTooltip.mdx
+
+# DefinitionTooltip
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/Tooltip/DefinitionTooltip.tsx)
+&nbsp;|&nbsp;
+[Usage guidelines](https://www.carbondesignsystem.com/components/tooltip/usage)
+&nbsp;|&nbsp;
+[Accessibility](https://www.carbondesignsystem.com/components/tooltip/accessibility)
+
+## Table of Contents
+
+- [Overview](#overview)
+  - [Customizing the content of a definition tooltip](#customizing-the-content-of-a-definition-tooltip)
+  - [Tooltip alignment](#tooltip-alignment)
+- [Component API](#component-api)
+- [Feedback](#feedback)
+
+## Overview
+
+The `DefinitionTooltip` component is used to provide additional information
+about a particular term or phrase in text content. It is similar to a `Tooltip`
+component but has fewer alignment options and has a slightly different
+interaction pattern.
+
+The `DefinitionTooltip` is made up of two parts: a term and the tooltip itself.
+You can customize the contents of the tooltip through the `definition` prop. You
+can customize the term by providing your own `children` to this component.
+
+### Customizing the content of a definition tooltip
+
+You can customize the content of the tooltip through the `definition` prop. This
+prop allows you to provide text or your own custom elements to be rendered as a
+definition for your term.
+
+Note: content passed into the `definition` prop must not contain any interactive
+content. If you pass in interactive content, it's semantics will not be
+available to users of screen reader software.
+
+### Tooltip alignment
+
+The `align` prop allows you to specify where your content should be placed
+relative to the tooltip. For example, if you provide `align="top"` to the
+`DefinitionTooltip` component then the tooltip will render above your component.
+Similarly, if you provide `align="bottom"` then the tooltip will render below
+your component.
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://react.carbondesignsystem.com)._
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/react/src/components/Tooltip/DefinitionTooltip.mdx).

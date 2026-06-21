@@ -1,0 +1,64 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/CodeSnippet/CodeSnippet.mdx
+
+# CodeSnippet
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/CodeSnippet)
+&nbsp;|&nbsp;
+[Usage guidelines](https://www.carbondesignsystem.com/components/code-snippet/usage)
+&nbsp;|&nbsp;
+[Accessibility](https://www.carbondesignsystem.com/components/code-snippet/accessibility)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Inline](#inline)
+- [Multi-line](#multi-line)
+- [Single-line](#single-line)
+- [Skeleton state](#skeleton-state)
+- [Component API](#component-api)
+- [Migration notes](#migration-notes)
+- [Feedback](#feedback)
+
+## Overview
+
+Code snippets are strings or small blocks of reusable code that are copyable. We
+don't provide the copy functionality and recommend
+[clipboard.js](https://clipboardjs.com/).
+
+## Inline
+
+Inline code snippets are used for distinguishing a symbol, variable, function
+name or similar small piece of code from its surrounding text.
+
+## Multi-line
+
+Multiple line code snippets are used for displaying code with more than one
+line. They're shown in a block and useful for showing classes, functions, blocks
+of styles and the like. There is an option to wrap the lines displayed if the
+lines are longer than the container.
+
+## Single-line
+
+Single line code snippets are used when showing code that fits on one line
+without wrapping. Useful for calling out terminal commands, function
+invocations, expressions etc.
+
+## Skeleton state
+
+You can use the `CodeSnippetSkeleton` component to render a skeleton variant of
+an code snippet. This is useful to display while content in your code snippet is
+being fetched from an external resource like an API.
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://react.carbondesignsystem.com)._
+
+## Migration notes
+
+- `copyLabel` has been deprecated in favor of `ariaLabel`.
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/react/src/components/CodeSnippet/CodeSnippet.mdx)

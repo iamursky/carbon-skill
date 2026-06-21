@@ -1,0 +1,31 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/Dialog/Dialog.mdx
+
+# Dialog
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/Dialog)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Component API](#component-api)
+- [Feedback](#feedback)
+
+## Overview
+
+The `Dialog` component is a primitive that wraps the native `<dialog>` and
+provides a composable api of related components that match the spec for Modals
+and non-modal dialogs as documented in the Dialog pattern.
+
+Chrome's built in focus wrap behavior includes the browser bar in the tab order.
+This is expected and consistent with `alert()` behavior.
+https://github.com/w3c/html/issues/1514#issuecomment-404097904
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://react.carbondesignsystem.com)._
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/react/src/components/Dialog/Dialog.mdx).

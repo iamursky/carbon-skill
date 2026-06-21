@@ -1,0 +1,86 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/web-components/src/components/breadcrumb/breadcrumb.mdx
+
+# Breadcrumb
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/web-components/src/components/breadcrumb)
+&nbsp;|&nbsp;
+[Usage guidelines](https://www.carbondesignsystem.com/components/breadcrumb/usage)
+&nbsp;|&nbsp;
+[Accessibility](https://www.carbondesignsystem.com/components/breadcrumb/accessibility)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Breadcrumb with `OverflowMenu`](#breadcrumb-with-overflow-menu)
+- [Skeleton state](#skeleton-state)
+- [Component API](#component-api)
+- [CDN](#cdn)
+- [Feedback](#feedback)
+
+## Overview
+
+You can build a breadcrumb using a combination of the `breadcrumb` and
+`breadcrumb-item` components. The `breadcrumb` component accepts a list of
+`breadcrumb-item` components as children and each `breadcrumb-item` is
+responsible for displaying the page links in the hierarchy.
+
+## Breadcrumb with `overflow-menu`
+
+When space becomes limited, use an `overflow-menu` to truncate the breadcrumbs.
+The first and last two page links should be shown, but the remaining breadcrumbs
+in between are condensed into an overflow menu. Breadcrumbs should never wrap
+onto a second line.
+
+## Skeleton state
+
+You can use the `breadcrumb-skeleton` component to render a skeleton variant of
+a breadcrumb. This is useful to display while content in your breadcrumb is
+being fetched from an external resource like an API.
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+
+### Breadcrumb no-trailing-slash
+
+You can use the `noTrailingSlash` attribute to omit the slash from the end of
+the current page.
+
+```html
+<breadcrumb no-trailing-slash="">
+  <breadcrumb-item href="#">Breadcrumb 1</breadcrumb-item>
+  <breadcrumb-item href="#">Breadcrumb 2</breadcrumb-item>
+  <breadcrumb-item href="#">Breadcrumb 3</breadcrumb-item>
+</breadcrumb>
+```
+
+### BreadcrumbItem `is-currentpage`
+
+You can use the `is-currentpage` attribute on a `breadcrumb-link` to represent
+the current page.
+
+```html
+<breadcrumb>
+  <breadcrumb-item href="#">Breadcrumb 1</breadcrumb-item>
+  <breadcrumb-item href="#">Breadcrumb 2</breadcrumb-item>
+  <cds-breadcrumb-item>
+    <cds-breadcrumb-link is-currentpage>Breadcrumb 3</cds-breadcrumb-link>
+  </cds-breadcrumb-item>
+</breadcrumb>
+```
+
+## CDN
+
+This component is also available via CDN.
+
+```html
+// SPECIFIC VERSION (available starting v2.0.0)
+<script type="module" src="https://1.www.s81c.com/common/carbon/web-components/version/v2.57.0/breadcrumb.min.js"></script>
+```
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/web-components/src/components/breadcrumb/breadcrumb.mdx).

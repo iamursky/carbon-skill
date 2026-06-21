@@ -1,0 +1,92 @@
+name: Sync Carbon docs
+
+# Polls the upstream Carbon monorepo once a day. A cheap `git ls-remote` reads the upstream HEAD
+# without cloning; if it matches the commit recorded in .source-commit, the run stops early
+# (nothing to do). Otherwise it rebuilds the bundled references, runs the guard, and opens a PR.
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily, 06:00 UTC
+  workflow_dispatch: {} # allow manual runs
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-docs
+  cancel-in-progress: false
+
+env:
+  UPSTREAM_REPO: https://github.com/carbon-design-system/carbon.git
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout skill repo
+        uses: actions/checkout@v4
+
+      - name: Compare upstream HEAD with last sync (cache gate)
+        id: gate
+        run: |
+          upstream="$(git ls-remote "$UPSTREAM_REPO" HEAD | cut -f1)"
+          last="$(tr -d '[:space:]' < .source-commit 2>/dev/null || true)"
+          echo "upstream=$upstream" >> "$GITHUB_OUTPUT"
+          echo "upstream_short=${upstream:0:7}" >> "$GITHUB_OUTPUT"
+          if [ -n "$upstream" ] && [ "$upstream" = "$last" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Up to date at \`$last\` — skipping rebuild." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Upstream \`$upstream\` differs from last synced \`${last:-none}\` — rebuilding." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Set up Python
+        if: steps.gate.outputs.changed == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Clone upstream carbon
+        if: steps.gate.outputs.changed == 'true'
+        run: git clone --depth 1 "$UPSTREAM_REPO" "$RUNNER_TEMP/carbon"
+
+      - name: Rebuild references and record upstream commit
+        if: steps.gate.outputs.changed == 'true'
+        run: |
+          python3 tools/build_references.py \
+            --carbon-repo "$RUNNER_TEMP/carbon" \
+            --out skills/carbon/references
+          printf '%s\n' "${{ steps.gate.outputs.upstream }}" > .source-commit
+
+      - name: Guard — flag unhandled conversion output
+        if: steps.gate.outputs.changed == 'true'
+        id: guard
+        run: |
+          if python3 tools/check_references.py skills/carbon/references | tee -a "$GITHUB_STEP_SUMMARY"; then
+            echo "status=clean" >> "$GITHUB_OUTPUT"
+          else
+            echo "status=issues" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open pull request if docs changed
+        if: steps.gate.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: sync/carbon-docs
+          delete-branch: true
+          commit-message: "sync: Carbon docs @ ${{ steps.gate.outputs.upstream_short }}"
+          title: "Sync Carbon docs (upstream ${{ steps.gate.outputs.upstream_short }})"
+          body: |
+            Automated daily sync of the bundled Carbon documentation.
+
+            - Upstream: [`carbon-design-system/carbon@${{ steps.gate.outputs.upstream_short }}`](https://github.com/carbon-design-system/carbon/commit/${{ steps.gate.outputs.upstream }})
+            - Rebuilt with `tools/build_references.py`. Guard status: **${{ steps.guard.outputs.status }}**.
+
+            If the guard reported issues (e.g. `unknown-jsx`), the upstream docs added a
+            Storybook component the converter does not handle yet — update
+            `tools/build_references.py` before merging. See the job summary for the details.
+          labels: |
+            docs-sync
+            ${{ steps.guard.outputs.status == 'issues' && 'needs-converter-update' || '' }}

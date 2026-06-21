@@ -1,0 +1,97 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/MenuButton/MenuButton.mdx
+
+# MenuButton
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/MenuButton)
+
+## Table of Contents
+
+- [Overview](#overview)
+  - [With Danger](#with-danger)
+  - [With Dividers](#with-dividers)
+  - [With Icons](#with-icons)
+- [Menu Alignment](#menu-alignment)
+- [menuTarget Prop](#menutarget-prop)
+- [Managing the `menuTarget` prop with React refs](#managing-the-menutarget-prop-with-react-refs)
+- [Experimental Auto Align](#experimental-auto-align)
+- [Component API](#component-api)
+- [Feedback](#feedback)
+
+## Overview
+
+A `MenuButton` can be used to group a set of actions that are related. These
+actions must be `MenuItem`s passed as `children`. The trigger buttons's label is
+passed as `props.label`.
+
+```jsx
+<MenuButton label="Actions">
+  <MenuItem label="First action" />
+  <MenuItem label="Second action" />
+  <MenuItem label="Third action" />
+</MenuButton>
+```
+
+#### With Danger
+
+#### With Dividers
+
+#### With Icons
+
+## Menu Alignment
+
+The `menuAlignment` prop enables you to define the placement of the Menu in
+relation to the `MenuButton`. For instance, setting `menuAlignment="top"` on the
+`MenuButton` will render the Menu above the button.
+
+If it seems your specified `menuAlignment` isn't working, it's because we
+prioritize ensuring the Menu remains visible. We calculate the optimal position
+to display the Menu in case the provided `menuAlignment` obscures it.
+
+We encourage you to play around in the Storybook Default stories to better
+understand the `menuAlignment` prop.
+
+## menuTarget Prop
+
+The `menuTarget` prop specifies where the `Menu` should render, which is
+particularly useful when using `MenuButton` inside a modal. By default, the menu
+renders in `document.body`, but this can disrupt focus order in modals or other
+components with focus management.
+
+Pass the `menuTarget` prop to render the `Menu` inside the modal or any specific
+element where you want it to render:
+
+## Managing the `menuTarget` prop with React refs
+
+Because React does not trigger re-renders when a ref's `.current` value changes,
+you must capture the ref value in state to update the `menuTarget` prop.
+
+```tsx
+const Component = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [target, setTarget] = useState<HTMLDivElement | undefined>(undefined);
+  useEffect(() => {
+    if (containerRef.current) {
+      setTarget(containerRef.current);
+    }
+  }, []);
+  return (
+    <div ref={containerRef}>
+      <MenuButton label="Actions" menuTarget={target}>
+        <MenuItem label="First action" />
+      </MenuButton>
+    </div>
+  );
+};
+```
+
+## Experimental Auto Align
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://react.carbondesignsystem.com)._
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/react/src/components/MenuButton/MenuButton.mdx).

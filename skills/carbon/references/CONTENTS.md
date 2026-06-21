@@ -1,0 +1,268 @@
+# Carbon Design System — reference index
+
+Faithful Markdown conversion of the Carbon Design System practitioner docs, generated from the [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) monorepo by `tools/build_references.py` — the colocated Storybook MDX (component usage), the per-package READMEs (foundational *elements*), and selected root `docs/` guides. Each file keeps a `> Source:` link to its file on GitHub. See `LICENSE` (Apache-2.0).
+
+Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
+
+**245 pages.**
+
+## @carbon/react — React components
+
+- [AILabel](react/components/AILabel.md) — `react/components/AILabel.md`
+- [AILabel](react/components/AILabelDataTable.md) — `react/components/AILabelDataTable.md`
+- [AI Skeleton](react/components/AISkeleton.md) — `react/components/AISkeleton.md`
+- [Accordion](react/components/Accordion.md) — `react/components/Accordion.md`
+- [AspectRatio](react/components/AspectRatio.md) — `react/components/AspectRatio.md`
+- [Breadcrumb](react/components/Breadcrumb.md) — `react/components/Breadcrumb.md`
+- [Buttons](react/components/Button.md) — `react/components/Button.md`
+- [Checkbox](react/components/Checkbox.md) — `react/components/Checkbox.md`
+- [ClassPrefix](react/components/ClassPrefix.md) — `react/components/ClassPrefix.md`
+- [CodeSnippet](react/components/CodeSnippet.md) — `react/components/CodeSnippet.md`
+- [ComboBox](react/components/ComboBox.md) — `react/components/ComboBox.md`
+- [Dynamically set floating styles](react/components/ComboButton.DynamicStyles.featureflag.md) — `react/components/ComboButton.DynamicStyles.featureflag.md`
+- [ComboButton](react/components/ComboButton.md) — `react/components/ComboButton.md`
+- [Dynamically set floating styles](react/components/Combobox.DynamicStyles.featureflag.md) — `react/components/Combobox.DynamicStyles.featureflag.md`
+- [Feature Flags for ComposedModal](react/components/ComposedModal.featureflag.md) — `react/components/ComposedModal.featureflag.md`
+- [ComposedModal](react/components/ComposedModal.md) — `react/components/ComposedModal.md`
+- [ContainedList](react/components/ContainedList.md) — `react/components/ContainedList.md`
+- [Content Switcher](react/components/ContentSwitcher.md) — `react/components/ContentSwitcher.md`
+- [ContextMenu](react/components/ContextMenu.md) — `react/components/ContextMenu.md`
+- [CopyButton](react/components/CopyButton.md) — `react/components/CopyButton.md`
+- [DataTable](react/components/DataTable.md) — `react/components/DataTable.md`
+- [Date Picker](react/components/DatePicker.md) — `react/components/DatePicker.md`
+- [DefinitionTooltip](react/components/DefinitionTooltip.md) — `react/components/DefinitionTooltip.md`
+- [Dialog](react/components/Dialog.md) — `react/components/Dialog.md`
+- [Dynamically set floating styles](react/components/Dropdown.DynamicStyles.featureflag.md) — `react/components/Dropdown.DynamicStyles.featureflag.md`
+- [Dropdown](react/components/Dropdown.md) — `react/components/Dropdown.md`
+- [Error Boundary](react/components/ErrorBoundary.md) — `react/components/ErrorBoundary.md`
+- [Feature Flags](react/components/FeatureFlags.md) — `react/components/FeatureFlags.md`
+- [Enhanced FileUploader Callbacks](react/components/FileUploader.featureflag.md) — `react/components/FileUploader.featureflag.md`
+- [FileUploader](react/components/FileUploader.md) — `react/components/FileUploader.md`
+- [FlexGrid](react/components/FlexGrid.md) — `react/components/FlexGrid.md`
+- [Fluid ComboBox](react/components/FluidComboBox.md) — `react/components/FluidComboBox.md`
+- [Fluid DatePicker](react/components/FluidDatePicker.md) — `react/components/FluidDatePicker.md`
+- [Fluid Dropdown](react/components/FluidDropdown.md) — `react/components/FluidDropdown.md`
+- [Fluid Form](react/components/FluidForm.md) — `react/components/FluidForm.md`
+- [Fluid Multiselect](react/components/FluidMultiSelect.md) — `react/components/FluidMultiSelect.md`
+- [Fluid NumberInput](react/components/FluidNumberInput.md) — `react/components/FluidNumberInput.md`
+- [Fluid PasswordInput](react/components/FluidPasswordInput.md) — `react/components/FluidPasswordInput.md`
+- [Fluid Search](react/components/FluidSearch.md) — `react/components/FluidSearch.md`
+- [FluidSelect](react/components/FluidSelect.md) — `react/components/FluidSelect.md`
+- [Fluid TextArea](react/components/FluidTextArea.md) — `react/components/FluidTextArea.md`
+- [Fluid TextInput](react/components/FluidTextInput.md) — `react/components/FluidTextInput.md`
+- [Fluid TimePicker](react/components/FluidTimePicker.md) — `react/components/FluidTimePicker.md`
+- [Form](react/components/Form.md) — `react/components/Form.md`
+- [FormGroup](react/components/FormGroup.md) — `react/components/FormGroup.md`
+- [FormLabel](react/components/FormLabel.md) — `react/components/FormLabel.md`
+- [Grid](react/components/Grid.md) — `react/components/Grid.md`
+- [Heading](react/components/Heading.md) — `react/components/Heading.md`
+- [Hide At Breakpoint](react/components/HideAtBreakpoint.md) — `react/components/HideAtBreakpoint.md`
+- [IconButton](react/components/IconButton.md) — `react/components/IconButton.md`
+- [IconIndicator](react/components/IconIndicator.md) — `react/components/IconIndicator.md`
+- [Icons](react/components/Icons.md) — `react/components/Icons.md`
+- [Prefix](react/components/IdPrefix.md) — `react/components/IdPrefix.md`
+- [InlineLoading](react/components/InlineLoading.md) — `react/components/InlineLoading.md`
+- [Layer](react/components/Layer.md) — `react/components/Layer.md`
+- [Layout](react/components/Layout.md) — `react/components/Layout.md`
+- [LayoutDirection](react/components/LayoutDirection.md) — `react/components/LayoutDirection.md`
+- [Link](react/components/Link.md) — `react/components/Link.md`
+- [Loading](react/components/Loading.md) — `react/components/Loading.md`
+- [Menu](react/components/Menu.md) — `react/components/Menu.md`
+- [Dynamically set floating styles](react/components/MenuButton.DynamicStyles.featureflag.md) — `react/components/MenuButton.DynamicStyles.featureflag.md`
+- [MenuButton](react/components/MenuButton.md) — `react/components/MenuButton.md`
+- [Feature Flags for Modal](react/components/Modal.featureflag.md) — `react/components/Modal.featureflag.md`
+- [Modal](react/components/Modal.md) — `react/components/Modal.md`
+- [Dynamically set floating styles](react/components/MultiSelect.DynamicStyles.featureflag.md) — `react/components/MultiSelect.DynamicStyles.featureflag.md`
+- [MultiSelect](react/components/MultiSelect.md) — `react/components/MultiSelect.md`
+- [ActionableNotification](react/components/Notification.featureflag.md) — `react/components/Notification.featureflag.md`
+- [Notification](react/components/Notification.md) — `react/components/Notification.md`
+- [NumberInput](react/components/NumberInput.md) — `react/components/NumberInput.md`
+- [OrderedList](react/components/OrderedList.md) — `react/components/OrderedList.md`
+- [OverflowMenu Next](react/components/OverflowMenu-next.md) — `react/components/OverflowMenu-next.md`
+- [OverflowMenu](react/components/OverflowMenu.DynamicStyles.featureflag.md) — `react/components/OverflowMenu.DynamicStyles.featureflag.md`
+- [OverflowMenu](react/components/OverflowMenu.md) — `react/components/OverflowMenu.md`
+- [PageHeader](react/components/PageHeader.md) — `react/components/PageHeader.md`
+- [Pagination Experimental](react/components/Pagination-experimental.md) — `react/components/Pagination-experimental.md`
+- [Pagination](react/components/Pagination.md) — `react/components/Pagination.md`
+- [PaginationNav](react/components/PaginationNav.md) — `react/components/PaginationNav.md`
+- [Dynamically set floating styles](react/components/Popover.DynamicStyles.featureflag.md) — `react/components/Popover.DynamicStyles.featureflag.md`
+- [Popover](react/components/Popover.md) — `react/components/Popover.md`
+- [ProgressBar](react/components/ProgressBar.md) — `react/components/ProgressBar.md`
+- [ProgressIndicator](react/components/ProgressIndicator.md) — `react/components/ProgressIndicator.md`
+- [RadioButton](react/components/RadioButton.md) — `react/components/RadioButton.md`
+- [Search](react/components/Search.md) — `react/components/Search.md`
+- [Section](react/components/Section.md) — `react/components/Section.md`
+- [Select](react/components/Select.md) — `react/components/Select.md`
+- [ShapeIndicator](react/components/ShapeIndicator.md) — `react/components/ShapeIndicator.md`
+- [SkeletonIcon](react/components/SkeletonIcon.md) — `react/components/SkeletonIcon.md`
+- [SkeletonPlaceholder](react/components/SkeletonPlaceholder.md) — `react/components/SkeletonPlaceholder.md`
+- [SkeletonText](react/components/SkeletonText.md) — `react/components/SkeletonText.md`
+- [Slider](react/components/Slider.md) — `react/components/Slider.md`
+- [Stack](react/components/Stack.md) — `react/components/Stack.md`
+- [StaticNotification has been renamed to Callout](react/components/StaticNotification.md) — `react/components/StaticNotification.md`
+- [Structured List](react/components/StructuredList.featureflag.md) — `react/components/StructuredList.featureflag.md`
+- [StructuredList](react/components/StructuredList.md) — `react/components/StructuredList.md`
+- [Tabs](react/components/Tabs.md) — `react/components/Tabs.md`
+- [Tag](react/components/Tag.md) — `react/components/Tag.md`
+- [Text](react/components/Text.md) — `react/components/Text.md`
+- [TextArea](react/components/TextArea.md) — `react/components/TextArea.md`
+- [TextInput](react/components/TextInput.md) — `react/components/TextInput.md`
+- [Theme](react/components/Theme.md) — `react/components/Theme.md`
+- [Tile Feature Flags](react/components/Tile.featureflag.md) — `react/components/Tile.featureflag.md`
+- [Tile](react/components/Tile.md) — `react/components/Tile.md`
+- [TimePicker](react/components/TimePicker.md) — `react/components/TimePicker.md`
+- [Reduced toggle label spacing](react/components/Toggle.featureflag.md) — `react/components/Toggle.featureflag.md`
+- [Toggle](react/components/Toggle.md) — `react/components/Toggle.md`
+- [Dynamically set floating styles](react/components/Toggletip.DynamicStyles.featureflag.md) — `react/components/Toggletip.DynamicStyles.featureflag.md`
+- [Toggletip](react/components/Toggletip.md) — `react/components/Toggletip.md`
+- [Dynamically set floating styles](react/components/Tooltip.DynamicStyles.featureflag.md) — `react/components/Tooltip.DynamicStyles.featureflag.md`
+- [Tooltip](react/components/Tooltip.md) — `react/components/Tooltip.md`
+- [TreeView controllable](react/components/TreeView.featureflag.md) — `react/components/TreeView.featureflag.md`
+- [TreeView](react/components/TreeView.md) — `react/components/TreeView.md`
+- [UIShell](react/components/UIShell.md) — `react/components/UIShell.md`
+- [UnorderedList](react/components/UnorderedList.md) — `react/components/UnorderedList.md`
+- [Definition Tooltip](react/components/definition-tooltip-overview.md) — `react/components/definition-tooltip-overview.md`
+- [ModalWrapper deprecation](react/components/migration.md) — `react/components/migration.md`
+- [Text Direction](react/components/text-direction-overview.md) — `react/components/text-direction-overview.md`
+- [Use Layer](react/components/use-layer-overview.md) — `react/components/use-layer-overview.md`
+- [Use Theme](react/components/use-theme-overview.md) — `react/components/use-theme-overview.md`
+- [useContextMenu](react/components/useContextMenu.md) — `react/components/useContextMenu.md`
+- [usePrefix](react/components/usePrefix.md) — `react/components/usePrefix.md`
+
+## @carbon/web-components — Web Components
+
+- [Accordion](web-components/components/accordion.md) — `web-components/components/accordion.md`
+- [AI Label](web-components/components/ai-label.md) — `web-components/components/ai-label.md`
+- [AI Skeleton](web-components/components/ai-skeleton.md) — `web-components/components/ai-skeleton.md`
+- [Auto align](web-components/components/autoalign.md) — `web-components/components/autoalign.md`
+- [Breadcrumb](web-components/components/breadcrumb.md) — `web-components/components/breadcrumb.md`
+- [Button](web-components/components/button.md) — `web-components/components/button.md`
+- [Chat button](web-components/components/chat-button.md) — `web-components/components/chat-button.md`
+- [Checkbox](web-components/components/checkbox.md) — `web-components/components/checkbox.md`
+- [Code snippet](web-components/components/code-snippet.md) — `web-components/components/code-snippet.md`
+- [Combo box](web-components/components/combo-box.md) — `web-components/components/combo-box.md`
+- [ComboButton](web-components/components/combo-button.md) — `web-components/components/combo-button.md`
+- [Contained list](web-components/components/contained-list.md) — `web-components/components/contained-list.md`
+- [Content switcher](web-components/components/content-switcher.md) — `web-components/components/content-switcher.md`
+- [Copy button](web-components/components/copy-button.md) — `web-components/components/copy-button.md`
+- [AI Label in DataTable](web-components/components/data-table-ai-label.md) — `web-components/components/data-table-ai-label.md`
+- [Data table](web-components/components/data-table.md) — `web-components/components/data-table.md`
+- [Date picker](web-components/components/date-picker.md) — `web-components/components/date-picker.md`
+- [DefinitionTooltip](web-components/components/definition-tooltip.md) — `web-components/components/definition-tooltip.md`
+- [Dialog](web-components/components/dialog.md) — `web-components/components/dialog.md`
+- [Dropdown](web-components/components/dropdown.md) — `web-components/components/dropdown.md`
+- [Feature Flags](web-components/components/feature-flags.md) — `web-components/components/feature-flags.md`
+- [File uploader](web-components/components/file-uploader.md) — `web-components/components/file-uploader.md`
+- [Fluid Combo Box](web-components/components/fluid-combo-box.md) — `web-components/components/fluid-combo-box.md`
+- [Fluid Dropdown](web-components/components/fluid-dropdown.md) — `web-components/components/fluid-dropdown.md`
+- [Fluid Form](web-components/components/fluid-form.md) — `web-components/components/fluid-form.md`
+- [Fluid Password Input](web-components/components/fluid-password-input.md) — `web-components/components/fluid-password-input.md`
+- [Search](web-components/components/fluid-search.md) — `web-components/components/fluid-search.md`
+- [Text Area](web-components/components/fluid-text-input.md) — `web-components/components/fluid-text-input.md`
+- [Text Area](web-components/components/fluid-textarea.md) — `web-components/components/fluid-textarea.md`
+- [Time Picker](web-components/components/fluid-time-picker.md) — `web-components/components/fluid-time-picker.md`
+- [Form group](web-components/components/form-group.md) — `web-components/components/form-group.md`
+- [Form](web-components/components/form.md) — `web-components/components/form.md`
+- [Grid](web-components/components/grid.md) — `web-components/components/grid.md`
+- [Section](web-components/components/heading-section.md) — `web-components/components/heading-section.md`
+- [Heading](web-components/components/heading.md) — `web-components/components/heading.md`
+- [Icon button](web-components/components/icon-button.md) — `web-components/components/icon-button.md`
+- [Icon indicator](web-components/components/icon-indicator.md) — `web-components/components/icon-indicator.md`
+- [Icon](web-components/components/icon.md) — `web-components/components/icon.md`
+- [Inline loading](web-components/components/inline-loading.md) — `web-components/components/inline-loading.md`
+- [Layer](web-components/components/layer.md) — `web-components/components/layer.md`
+- [Layout](web-components/components/layout.md) — `web-components/components/layout.md`
+- [Link](web-components/components/link.md) — `web-components/components/link.md`
+- [Loading](web-components/components/loading.md) — `web-components/components/loading.md`
+- [MenuButton](web-components/components/menu-button.md) — `web-components/components/menu-button.md`
+- [Menu](web-components/components/menu.md) — `web-components/components/menu.md`
+- [Modal Feature Flag](web-components/components/modal.feature-flag.md) — `web-components/components/modal.feature-flag.md`
+- [Modal](web-components/components/modal.md) — `web-components/components/modal.md`
+- [Multi select](web-components/components/multi-select.md) — `web-components/components/multi-select.md`
+- [Notification](web-components/components/notification.md) — `web-components/components/notification.md`
+- [Number input](web-components/components/number-input.md) — `web-components/components/number-input.md`
+- [Ordered list](web-components/components/ordered-list.md) — `web-components/components/ordered-list.md`
+- [OverflowMenu](web-components/components/overflow-menu.feature-flag.md) — `web-components/components/overflow-menu.feature-flag.md`
+- [Overflow menu](web-components/components/overflow-menu.md) — `web-components/components/overflow-menu.md`
+- [Page Header](web-components/components/page-header.md) — `web-components/components/page-header.md`
+- [Pagination Nav](web-components/components/pagination-nav.md) — `web-components/components/pagination-nav.md`
+- [Pagination](web-components/components/pagination.md) — `web-components/components/pagination.md`
+- [Password Input](web-components/components/password-input.md) — `web-components/components/password-input.md`
+- [Popover](web-components/components/popover.md) — `web-components/components/popover.md`
+- [Progress bar](web-components/components/progress-bar.md) — `web-components/components/progress-bar.md`
+- [ProgressIndicator](web-components/components/progress-indicator.md) — `web-components/components/progress-indicator.md`
+- [Radio button](web-components/components/radio-button.md) — `web-components/components/radio-button.md`
+- [Search](web-components/components/search.md) — `web-components/components/search.md`
+- [Select](web-components/components/select.md) — `web-components/components/select.md`
+- [Shape indicator](web-components/components/shape-indicator.md) — `web-components/components/shape-indicator.md`
+- [Skeleton icon](web-components/components/skeleton-icon.md) — `web-components/components/skeleton-icon.md`
+- [Skeleton placeholder](web-components/components/skeleton-placeholder.md) — `web-components/components/skeleton-placeholder.md`
+- [Skeleton text](web-components/components/skeleton-text.md) — `web-components/components/skeleton-text.md`
+- [Slider](web-components/components/slider.md) — `web-components/components/slider.md`
+- [Stack](web-components/components/stack.md) — `web-components/components/stack.md`
+- [Structured list](web-components/components/structured-list.md) — `web-components/components/structured-list.md`
+- [Tabs](web-components/components/tabs.md) — `web-components/components/tabs.md`
+- [Tag](web-components/components/tag.md) — `web-components/components/tag.md`
+- [Text Input](web-components/components/text-input.md) — `web-components/components/text-input.md`
+- [Text Area](web-components/components/textarea.md) — `web-components/components/textarea.md`
+- [Tile Feature Flags](web-components/components/tile.featureflag.md) — `web-components/components/tile.featureflag.md`
+- [Tile](web-components/components/tile.md) — `web-components/components/tile.md`
+- [Time Picker](web-components/components/time-picker.md) — `web-components/components/time-picker.md`
+- [Reduced toggle label spacing](web-components/components/toggle.feature-flag.md) — `web-components/components/toggle.feature-flag.md`
+- [Toggle](web-components/components/toggle.md) — `web-components/components/toggle.md`
+- [Toggletip](web-components/components/toggletip.md) — `web-components/components/toggletip.md`
+- [Tooltip](web-components/components/tooltip.md) — `web-components/components/tooltip.md`
+- [Tree View](web-components/components/tree-view.md) — `web-components/components/tree-view.md`
+- [UI Shell](web-components/components/ui-shell.md) — `web-components/components/ui-shell.md`
+- [Unordered list](web-components/components/unordered-list.md) — `web-components/components/unordered-list.md`
+
+## Elements & packages (foundations)
+
+- [@carbon/cli](elements/cli.md) — `elements/cli.md`
+- [@carbon/colors](elements/colors.md) — `elements/colors.md`
+- [@carbon/elements](elements/elements.md) — `elements/elements.md`
+- [@carbon/feature-flags](elements/feature-flags.md) — `elements/feature-flags.md`
+- [@carbon/grid](elements/grid.md) — `elements/grid.md`
+- [@carbon/icon-helpers](elements/icon-helpers.md) — `elements/icon-helpers.md`
+- [@carbon/icons-react](elements/icons-react.md) — `elements/icons-react.md`
+- [@carbon/icons-vue](elements/icons-vue.md) — `elements/icons-vue.md`
+- [@carbon/icons](elements/icons.md) — `elements/icons.md`
+- [@carbon/layout](elements/layout.md) — `elements/layout.md`
+- [@carbon/motion](elements/motion.md) — `elements/motion.md`
+- [@carbon/pictograms-react](elements/pictograms-react.md) — `elements/pictograms-react.md`
+- [@carbon/pictograms](elements/pictograms.md) — `elements/pictograms.md`
+- [@carbon/react](elements/react.md) — `elements/react.md`
+- [@carbon/styles](elements/styles.md) — `elements/styles.md`
+- [@carbon/themes](elements/themes.md) — `elements/themes.md`
+- [@carbon/type](elements/type.md) — `elements/type.md`
+- [@carbon/upgrade](elements/upgrade.md) — `elements/upgrade.md`
+- [@carbon/utilities-react](elements/utilities-react.md) — `elements/utilities-react.md`
+- [@carbon/utilities](elements/utilities.md) — `elements/utilities.md`
+- [`@carbon/web-components`](elements/web-components.md) — `elements/web-components.md`
+
+## Guides (styling, a11y, icons, feature flags)
+
+- [Accessibility](guides/accessibility.md) — `guides/accessibility.md`
+- [Colors](guides/colors.md) — `guides/colors.md`
+- [Experimental code](guides/experimental-code.md) — `guides/experimental-code.md`
+- [Feature Flags](guides/feature-flags.md) — `guides/feature-flags.md`
+- [IBM Plex](guides/ibm-plex.md) — `guides/ibm-plex.md`
+- [Icons](guides/icons.md) — `guides/icons.md`
+- [Package structure](guides/package-structure.md) — `guides/package-structure.md`
+- [Preview code](guides/preview-code.md) — `guides/preview-code.md`
+- [Sass](guides/sass.md) — `guides/sass.md`
+- [Versioning](guides/versioning.md) — `guides/versioning.md`
+
+## Migration
+
+- [Colors](migration/10.x-color.md) — `migration/10.x-color.md`
+- [Grid](migration/10.x-grid.md) — `migration/10.x-grid.md`
+- [Icons](migration/10.x-icons.md) — `migration/10.x-icons.md`
+- [Layout](migration/10.x-layout.md) — `migration/10.x-layout.md`
+- [Motion](migration/10.x-motion.md) — `migration/10.x-motion.md`
+- [Themes](migration/10.x-themes.md) — `migration/10.x-themes.md`
+- [Type](migration/10.x-type.md) — `migration/10.x-type.md`
+- [Type](migration/11.x-type.md) — `migration/11.x-type.md`
+- [Carbon Web Components: v2 migration guide](migration/cwc-v2-migration.md) — `migration/cwc-v2-migration.md`
+- [v11](migration/v11.md) — `migration/v11.md`
+

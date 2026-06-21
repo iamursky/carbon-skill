@@ -1,0 +1,89 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/web-components/src/components/accordion/accordion.mdx
+
+# Accordion
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/web-components/src/components/accordion)
+&nbsp;|&nbsp;
+[Usage guidelines](https://www.carbondesignsystem.com/components/accordion/usage)
+&nbsp;|&nbsp;
+[Accessibility](https://www.carbondesignsystem.com/components/accordion/accessibility)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Controlled](#controlled)
+- [Skeleton state](#skeleton-state)
+- [Component API](#component-api)
+- [CDN](#cdn)
+- [Feedback](#feedback)
+
+## Overview
+
+You can build an accordion using a combination of the `cds-accordion` and
+`cds-accordion-item` components. The `accordion` components accept a list of
+`cds-accordion-item` components as children, which are responsible for
+displaying the accordion's heading and panel content.
+
+You can configure the accordion item's heading using the `title` attribute.
+Everything you pass in as a child of `cds-accordion-item` will be rendered in
+the accordion's panel.
+
+## Controlled
+
+> The `controlled` attribute used here is for this example only, and is not part
+> of the component API. Any valid DOM selector can be used.
+
+## Skeleton state
+
+You can use the `cds-accordion-skeleton` component to render a skeleton variant
+of an accordion. This is useful to display while content in your accordion is
+being fetched from an external resource like an API.
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+
+### Accordion align
+
+In rare cases, you may need to specify the alignment of the icon in the
+accordion. You can use the `alignment` attribute to specify the side where the
+icon should be placed.
+
+_Note: This attribute must not be used to create a tree view or set of nested
+accordions._
+
+```html
+<cds-accordion alignment="start">
+  <cds-accordion-item title="Panel A">Panel A</cds-accordion-item>
+  <cds-accordion-item title="Panel B">Panel B</cds-accordion-item>
+  <cds-accordion-item title="Panel C">Panel C</cds-accordion-item>
+</cds-accordion>
+```
+
+### Accordion Item title
+
+You can use the `title` attribute to specify the accordion item's heading.
+
+```html
+<cds-accordion>
+  <cds-accordion-item title="Panel A">Panel A</cds-accordion-item>
+  <cds-accordion-item title="Panel B">Panel B</cds-accordion-item>
+  <cds-accordion-item title="Panel C">Panel C</cds-accordion-item>
+</cds-accordion>
+```
+
+## CDN
+
+This component is also available via CDN.
+
+```html
+// SPECIFIC VERSION (available starting v2.0.0)
+<script type="module" src="https://1.www.s81c.com/common/carbon/web-components/version/v2.57.0/accordion.min.js"></script>
+```
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/web-components/src/components/accordion/accordion.mdx).

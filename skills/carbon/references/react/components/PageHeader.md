@@ -1,0 +1,12 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/PageHeader/PageHeader.mdx
+
+# PageHeader
+
+`PageHeader` has moved out of `@carbon/react` and is now maintained in
+[`@carbon/ibm-products`](https://github.com/carbon-design-system/ibm-products).
+
+This package keeps the existing exports temporarily to reduce migration impact,
+but new usage should move to IBM Products.
+
+Track the deprecation and removal work in
+[`carbon#21926`](https://github.com/carbon-design-system/carbon/issues/21926).

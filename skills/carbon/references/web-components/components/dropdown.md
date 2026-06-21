@@ -1,0 +1,156 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/web-components/src/components/dropdown/dropdown.mdx
+
+# Dropdown
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/web-components/src/components/dropdown)
+&nbsp;|&nbsp;
+[Usage guidelines](https://www.carbondesignsystem.com/components/dropdown/usage)
+&nbsp;|&nbsp;
+[Accessibility](https://www.carbondesignsystem.com/components/dropdown/accessibility)
+
+## Table of Contents
+
+- [Overview](#overview)
+  - [Inline dropdown](#inline-dropdown)
+  - [Skeleton state](#skeleton-state)
+  - [AI label](#ai-label)
+- [Component API](#component-api)
+  - [Dropdown `direction`](#dropdown-direction)
+  - [Dropdown `value`](#dropdown-value)
+  - [Dropdown `size`](#dropdown-size)
+  - [Dropdown `label`](#dropdown-label)
+  - [Dropdown `type`](#dropdown-type)
+- [CDN](#cdn)
+- [References](#references)
+- [Feedback](#feedback)
+
+## Overview
+
+Dropdowns present a list of options from which a user can select one option, or
+several. A selected option can represent a value in a form, or can be used as an
+action to filter or sort existing content.
+
+### Inline Dropdown
+
+You can place a `cds-dropdown` inline with other content by using the `inline`
+variant
+
+### Skeleton state
+
+You can use the `cds-dropdown-skeleton` component to render a skeleton variant
+of a dropdown. This is useful to display on initial page load or when data needs
+to be fetched from an external API.
+
+### AI label
+
+## Component API
+
+## `cds-dropdown`
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+
+## `cds-dropdown-item`
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+
+### Dropdown `direction`
+
+When a dropdown is near the bottom of a page, you may want to render the menu to
+the top of the screen. To do this, specify `direction="top"`
+
+```html
+<cds-dropdown direction="top" label="Select an option...">
+  <cds-dropdown-item value="0">Option 1</cds-dropdown-item>
+  <cds-dropdown-item value="1">Option 2</cds-dropdown-item>
+  <cds-dropdown-item value="2">Option 3</cds-dropdown-item>
+</cds-dropdown>
+```
+
+### Dropdown `value`
+
+If you want the dropdown to render with an option already selected, but do not
+want to fully control the component, you can set the dropdown `value` to the
+option you want selected.
+
+```html
+<cds-dropdown value="option-0">
+  <cds-dropdown-item value="option-0">Initially selected</cds-dropdown-item>
+  <cds-dropdown-item value="option-1">Option 1</cds-dropdown-item>
+  <cds-dropdown-item value="option-2">Option 2</cds-dropdown-item>
+</cds-dropdown>
+```
+
+### Dropdown `size`
+
+There are three sizes of dropdown available: `sm`, `md` (the default), and `lg`.
+
+```jsx
+<cds-dropdown label="Small [sm]" size="sm" title-text="Label">
+  <cds-dropdown-item value="option-1">Option 1</cds-dropdown-item>
+  <cds-dropdown-item value="option-2">Option 2</cds-dropdown-item>
+</cds-dropdown>
+```
+<br />
+```jsx
+<cds-dropdown label="Medium [md]" size="md" title-text="Label">
+  <cds-dropdown-item value="option-1">Option 1</cds-dropdown-item>
+  <cds-dropdown-item value="option-2">Option 2</cds-dropdown-item>
+</cds-dropdown>
+```
+<br />
+```html
+<cds-dropdown label="Dropdown label" size="sm" title-text="Label">
+  <cds-dropdown-item value="option-1">Option 1</cds-dropdown-item>
+  <cds-dropdown-item value="option-2">Option 2</cds-dropdown-item>
+</cds-dropdown>
+<cds-dropdown label="Dropdown label" size="md" title-text="Label">
+  <cds-dropdown-item value="option-1">Option 1</cds-dropdown-item>
+  <cds-dropdown-item value="option-2">Option 2</cds-dropdown-item>
+</cds-dropdown>
+<cds-dropdown label="Dropdown label" size="lg" title-text="Label">
+  <cds-dropdown-item value="option-1">Option 1</cds-dropdown-item>
+  <cds-dropdown-item value="option-2">Option 2</cds-dropdown-item>
+</cds-dropdown>
+```
+
+### Dropdown `label`
+
+This is the text that will be used as a label for the dropdown.
+
+```html
+<cds-dropdown label="Dropdown label" size="sm" title-text="Label">
+  <cds-dropdown-item value="option-1">Option 1</cds-dropdown-item>
+  <cds-dropdown-item value="option-2">Option 2</cds-dropdown-item>
+</cds-dropdown>
+```
+
+### Dropdown `type`
+
+Sometimes you will need to place a dropdown inline with other content. To do
+that, add `type="inline"` to the dropdown.
+
+```html
+<cds-dropdown type="inline" label="Inline" title-text="Label">
+  <cds-dropdown-item value="option-1">Option 1</cds-dropdown-item>
+  <cds-dropdown-item value="option-2">Option 2</cds-dropdown-item>
+</cds-dropdown>
+```
+
+## CDN
+
+This component is also available via CDN.
+
+```html
+// SPECIFIC VERSION (available starting v2.0.0)
+<script type="module" src="https://1.www.s81c.com/common/carbon/web-components/version/v2.57.0/dropdown.min.js"></script>
+```
+
+## References
+
+- [Carbon Usage Guidelines](https://www.carbondesignsystem.com/components/dropdown/usage/)
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/web-components/src/components/dropdown/dropdown.mdx).

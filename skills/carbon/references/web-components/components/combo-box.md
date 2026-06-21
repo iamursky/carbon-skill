@@ -1,0 +1,75 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/web-components/src/components/combo-box/combo-box.mdx
+
+# Combo box
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/web-components/src/components/combo-box)
+&nbsp;|&nbsp;
+[Usage guidelines](https://www.carbondesignsystem.com/components/dropdown/usage#combo-box)
+&nbsp;|&nbsp;
+[Accessibility](https://www.carbondesignsystem.com/components/dropdown/accessibility)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Controlled](#controlled)
+- [Placeholder and labeling](#placeholders-and-labeling)
+- [With AI Label](#with-ai-label)
+- [Component API](#component-api)
+- [CDN](#cdn)
+- [Feedback](#feedback)
+
+## Overview
+
+A combobox allows the user to make a selection from a predefined list of options
+and is typically used when there are a large amount of options to choose from.
+
+## Controlled
+
+## Disabled
+
+A disabled combobox is available but should not be used as the sole means of
+conveying information. For example, if the user must complete a previous form
+input before moving on to the combobox, make sure to make that clear to the user
+via an error state on the previous form element in addition to disabling the
+next element.
+
+```html
+<cds-combo-box
+  helper-text="This is some helper text"
+  title-text="Combo box title"
+  label="Filter..."
+  disabled>
+  <cds-combo-box-item value="all">Option 1</cds-combo-box-item>
+  <cds-combo-box-item value="cloudFoundry">Option 2</cds-combo-box-item>
+  <cds-combo-box-item value="staging">Option 3</cds-combo-box-item>
+</cds-combo-box>
+```
+
+## Placeholders and Labeling
+
+The placeholder is not a replacement for a label under any circumstances
+including space restraints. Placeholders should be used to provide additive
+information regarding the format of the input. In all cases a label is required
+_in addition to_ a placeholder.
+
+## With AI Label
+
+## Component API
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+
+## CDN
+
+This component is also available via CDN.
+
+```html
+// SPECIFIC VERSION (available starting v2.0.0)
+<script type="module" src="https://1.www.s81c.com/common/carbon/web-components/version/v2.57.0/combo-box.min.js"></script>
+```
+
+## Feedback
+
+Help us improve these docs by
+[editing this file on GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/web-components/src/components/combo-box/combo-box.mdx)

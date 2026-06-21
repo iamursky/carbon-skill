@@ -1,0 +1,12 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "groupings": [
+    {
+      "title": "Carbon Design System",
+      "description": "Reference skill for IBM's Carbon Design System — component usage and APIs for both flagship libraries (@carbon/react and @carbon/web-components), Sass styling with @carbon/styles, theming, the 2x Grid, icons & IBM Plex type, design tokens (colors, themes, layout, motion), feature flags, and v11 migration.",
+      "skills": [
+        "carbon"
+      ]
+    }
+  ]
+}
