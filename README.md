@@ -1,6 +1,6 @@
 # Carbon — a Claude skill for the IBM Carbon Design System
 
-[![skills.sh](https://skills.sh/b/hinoderun/carbon-skill)](https://skills.sh/hinoderun/carbon-skill)
+[![skills.sh](https://skills.sh/b/iamursky/carbon-skill)](https://skills.sh/iamursky/carbon-skill)
 
 <!-- Add a cover image at .github/images/cover.webp and reference it here -->
 
@@ -47,7 +47,7 @@ usage guidance for the system as a whole lives at https://www.carbondesignsystem
 ### Via `npx skills` (recommended)
 
 ```bash
-npx skills add hinoderun/carbon-skill
+npx skills add iamursky/carbon-skill
 ```
 
 ### Claude Desktop / Web
@@ -61,11 +61,11 @@ npx skills add hinoderun/carbon-skill
 
 ```bash
 # Personal (available across all projects)
-git clone https://github.com/hinoderun/carbon-skill ~/carbon-skill
+git clone https://github.com/iamursky/carbon-skill ~/carbon-skill
 ln -s ~/carbon-skill/skills/carbon ~/.claude/skills/carbon
 
 # Per-project (shared with the team via git)
-git clone https://github.com/hinoderun/carbon-skill .carbon-skill
+git clone https://github.com/iamursky/carbon-skill .carbon-skill
 ln -s .carbon-skill/skills/carbon .claude/skills/carbon
 ```
 
