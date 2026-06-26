@@ -73,6 +73,7 @@ pass it `kind="danger"` to highlight it specially on hover and focus.
 
 ```html
 <cds-menu
+  open
   @cds-item-opened="${handleMenuOpen}"
   @cds-item-closed="${handleMenuClose}">
   <cds-menu-item label="Cut" shortcut="⌘X"></cds-menu-item>
@@ -85,7 +86,7 @@ In order to render an icon for a menu item, you need to pass it as a slot named
 `render-icon` to the `cds-menu-item`.
 
 ```html
-<cds-menu>
+<cds-menu open>
   <cds-menu-item label="Cut" shortcut="⌘X">
     ${Cut16({ slot: 'render-icon' })}
   </cds-menu-item>
@@ -98,7 +99,7 @@ In order to render a submenu, you can pass as a slot named `submenu` inside the
 `cds-menu-item`.
 
 ```html
-<cds-menu>
+<cds-menu open>
   <cds-menu-item label="Open"></cds-menu-item>
   <cds-menu-item label="Save"></cds-menu-item>
   <cds-menu-item label="Import">
@@ -118,7 +119,7 @@ The `cds-menu-item-divider` renders a thin dividing line, visually separating
 menu items. Use this to enhance grouping of related items.
 
 ```html
-<cds-menu>
+<cds-menu open>
   <cds-menu-item label="Cut"></cds-menu-item>
   <cds-menu-item label="Copy"></cds-menu-item>
   <cds-menu-item label="Paste"></cds-menu-item>
@@ -143,7 +144,7 @@ items. If multiple items are related to each other, you'll want to wrap them in
 a `cds-menu-item-group` for improved accessibility.
 
 ```html
-<cds-menu>
+<cds-menu open>
   <cds-menu-item-group label="Font style">
     <cds-menu-item-selectable
       label="Bold"
@@ -170,7 +171,7 @@ item can be selected at a time. The component automatically wraps itself in a
 pass the list of `cds-menu-item` as children to render as radio button items
 
 ```html
-<cds-menu>
+<cds-menu open>
   <cds-menu-item-radio-group
     label="Font family"
     @cds-item-changed="${handleItemChange}">
