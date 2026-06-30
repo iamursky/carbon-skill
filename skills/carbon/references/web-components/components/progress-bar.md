@@ -27,7 +27,7 @@ This component is also available via CDN.
 
 ```html
 // SPECIFIC VERSION (available starting v2.0.0)
-<script type="module" src="https://1.www.s81c.com/common/carbon/web-components/version/v2.57.0/progress-bar.min.js"></script>
+<script type="module" src="https://1.www.s81c.com/common/carbon/web-components/version/v2.58.0-rc.0/progress-bar.min.js"></script>
 ```
 
 ## Feedback
