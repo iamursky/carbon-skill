@@ -82,14 +82,6 @@ different languages.
 When using the `inline` variant, you can add text adjacent to the `AI Label`
 with the `ai-text-label` attribute.
 
-```jsx
-<div style={{ display: 'flex', alignItems: 'left' }}>
-  <cds-ai-label kind="inline" ai-text-label="Text goes here">
-    <div slot="body-text">Explanation of AI-generated content</div>
-  </cds-ai-label>
-</div>
-```
-<br />
 ```html
 <cds-ai-label kind="inline" ai-text-label="Text goes here">
   <div slot="body-text">Explanation of AI-generated content</div>

@@ -164,16 +164,6 @@ as the `locale` prop example. One is setting it as September 1st, and the other
 is setting it as January 9th.
 
 ```jsx
-<DatePicker maxDate="09/01/2020" datePickerType="single">
-  <DatePickerInput
-    placeholder="dd/mm/yyyy"
-    id="date-picker-3"
-    labelText="US format"
-  />
-</DatePicker>
-```
-<br />
-```jsx
 <DatePicker maxDate="09/01/2020">
   <DatePickerInput placeholder="mm/dd/yyyy" />
 </DatePicker>
@@ -250,16 +240,6 @@ explicitly added to the array.
 By default `DatePicker` will set the current date as its value. If you'd like to
 start this at a different date, you can pass in a date string or date object.
 
-```jsx
-<DatePicker datePickerType="single" value="07/15/1988">
-  <DatePickerInput
-    placeholder="dd/mm/yyyy"
-    id="date-picker-6"
-    labelText="Value as string example"
-  />
-</DatePicker>
-```
-<br />
 ```jsx
 <DatePicker datePickerType="single" value="07/15/1988">
   <DatePickerInput

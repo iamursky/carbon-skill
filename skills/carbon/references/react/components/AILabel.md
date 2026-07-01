@@ -90,12 +90,6 @@ When using the `inline` variant, you can add text adjacent to the AI label with
 the `aiTextLabel` prop.
 
 ```jsx
-<AILabel kind="inline" textLabel="Text goes here" className="sbdocs-ai-label">
-  <AILabelContent>Explanation of AI generated content</AILabelContent>
-</AILabel>
-```
-<br />
-```jsx
 <AILabel kind="inline" textLabel="Text goes here">
   <AILabelContent>Explanation of AI generated content</AILabelContent>
 </AILabel>

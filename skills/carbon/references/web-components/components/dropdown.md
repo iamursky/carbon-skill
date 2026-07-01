@@ -84,20 +84,6 @@ option you want selected.
 
 There are three sizes of dropdown available: `sm`, `md` (the default), and `lg`.
 
-```jsx
-<cds-dropdown label="Small [sm]" size="sm" title-text="Label">
-  <cds-dropdown-item value="option-1">Option 1</cds-dropdown-item>
-  <cds-dropdown-item value="option-2">Option 2</cds-dropdown-item>
-</cds-dropdown>
-```
-<br />
-```jsx
-<cds-dropdown label="Medium [md]" size="md" title-text="Label">
-  <cds-dropdown-item value="option-1">Option 1</cds-dropdown-item>
-  <cds-dropdown-item value="option-2">Option 2</cds-dropdown-item>
-</cds-dropdown>
-```
-<br />
 ```html
 <cds-dropdown label="Dropdown label" size="sm" title-text="Label">
   <cds-dropdown-item value="option-1">Option 1</cds-dropdown-item>
