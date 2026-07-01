@@ -204,26 +204,6 @@ There are three sizes of `Dropdown` available: `sm`, `md` (the default), and
   items={['Option 1', 'Option 2', 'Option 3']}
   size="sm"
   label="Small [sm]"
-  id="sm"
-  titleText="Label"
-/>
-```
-<br />
-```jsx
-<Dropdown
-  items={['Option 1', 'Option 2', 'Option 3']}
-  label="Medium [md]"
-  id="md"
-  size="md"
-  titleText="Label"
-/>
-```
-<br />
-```jsx
-<Dropdown
-  items={['Option 1', 'Option 2', 'Option 3']}
-  size="sm"
-  label="Small [sm]"
   titleText="Label"
 />
 <Dropdown

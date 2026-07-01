@@ -51,11 +51,18 @@ actions a user could choose from, then a lower emphasis style like the danger
 tertiary button or the danger ghost button may be more appropriate.
 
 ```jsx
-<div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+<Unstyled
+  style={{
+    padding: '1rem',
+    background: 'var(--cds-background)',
+    flexWrap: 'wrap',
+    display: 'flex',
+    gap: '1rem',
+  }}>
   <Button kind="danger">Danger</Button>
   <Button kind="danger--tertiary">Danger tertiary</Button>
   <Button kind="danger--ghost">Danger ghost</Button>
-</div>
+</Unstyled>
 ```
 
 ## Icon-only Button
@@ -117,18 +124,10 @@ respectively.
 <Button hasIconOnly renderIcon={Add} iconDescription="Add" />
 ```
 
-```jsx
-<Button hasIconOnly renderIcon={Add} iconDescription="Add" />
-```
-
 ### Button `href`
 
 This prop allows you to specify an address to navigate to on click. This will
 change the underlying `Button` element to be rendered as an `a` anchor element.
-
-```jsx
-<Button href="https://www.carbondesignsystem.com">Navigate</Button>
-```
 
 ```jsx
 <Button href="https://www.carbondesignsystem.com">Navigate</Button>
@@ -152,18 +151,6 @@ Carbon has seven types of buttons, `primary`, `secondary`, `tertiary`, `ghost`,
 `primary` button will be rendered. For more information on when to use each
 variant, check out the
 [design documentation](https://www.carbondesignsystem.com/components/button/usage#overview)
-
-```jsx
-<div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-  <Button>Primary</Button>
-  <Button kind="secondary">Secondary</Button>
-  <Button kind="tertiary">Tertiary </Button>
-  <Button kind="danger">Danger</Button>
-  <Button kind="danger--tertiary">Danger tertiary</Button>
-  <Button kind="danger--ghost">Danger Ghost</Button>
-  <Button kind="ghost">Ghost</Button>
-</div>
-```
 
 ```jsx
 <Button>Primary</Button>
@@ -192,39 +179,12 @@ to render an icon-only button, please refer to the section on the
 [hasIconOnly](#button-hasicononly) prop
 
 ```jsx
-<div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-  <Button renderIcon={Add} iconDescription="Add">
-    {'Add'}
-  </Button>
-  <Button renderIcon={TrashCan} kind="danger" iconDescription="TrashCan">
-    {'Delete'}
-  </Button>
-</div>
-```
-
-```jsx
 <Button renderIcon={Add} iconDescription="Add">Add</Button>
 <Button renderIcon={TrashCan} kind="danger" iconDescription="TrashCan">Delete</Button>
 ```
 
 To render an icon of a different `size`, pass a function that spreads props on
 the Icon to ensure the proper classes are applied:
-
-```jsx
-<div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-  <Button
-    renderIcon={(props) => <Add size={24} {...props} />}
-    iconDescription="Add">
-    {'Add'}
-  </Button>
-  <Button
-    renderIcon={(props) => <TrashCan size={24} {...props} />}
-    kind="danger"
-    iconDescription="TrashCan">
-    {'Delete'}
-  </Button>
-</div>
-```
 
 ```jsx
 <Button renderIcon={(props) => <Add size={24} {...props} />} iconDescription="Add">Add</Button>
@@ -240,12 +200,6 @@ an element appear as a button control to a screen reader. Check out the
 
 ```jsx
 <Button as="div" role="button">
-  {'a11y Button'}
-</Button>
-```
-
-```jsx
-<Button as="div" role="button">
   a11y Button
 </Button>
 ```
@@ -255,23 +209,6 @@ an element appear as a button control to a screen reader. Check out the
 This attribute specifies at which size the `button` should be rendered. Valid
 values are `xs`, `sm`, `md`, `lg`, `xl`, and `2xl`. If no size is specified, it
 renders as `lg`.
-
-```jsx
-<div
-  style={{
-    display: 'flex',
-    gap: '1rem',
-    flexWrap: 'wrap',
-    alignItems: 'end',
-  }}>
-  <Button size="xs">Submit</Button>
-  <Button size="sm">Submit</Button>
-  <Button size="md">Submit</Button>
-  <Button>Submit</Button>
-  <Button size="xl">Submit</Button>
-  <Button size="2xl">Submit</Button>
-</div>
-```
 
 ```jsx
 <Button size="xs">Submit</Button>
@@ -288,25 +225,6 @@ The `badgeCount` prop is used to display a badge with a number on icon-only
 buttons. setting this prop without passing any number shows a red dot.
 
 ```jsx
-<div style={{ display: 'flex', gap: '1rem' }}>
-  <Button
-    hasIconOnly
-    kind="ghost"
-    renderIcon={Add}
-    iconDescription="Add to selection"
-    badgeCount={5}
-  />
-  <Button
-    hasIconOnly
-    kind="ghost"
-    renderIcon={Add}
-    iconDescription="Add to selection"
-    badgeCount={0}
-  />
-</div>
-```
-
-```jsx
 <Button hasIconOnly kind="ghost" renderIcon={Add} iconDescription="Add to selection" badgeCount={5} />
 <Button hasIconOnly kind="ghost" renderIcon={Add} iconDescription="Add to selection" badgeCount={0} />
 ```
@@ -316,24 +234,6 @@ buttons. setting this prop without passing any number shows a red dot.
 The `tooltipAlignment` prop is used to change where the tooltip text and caret
 is rendered in relation to the `Button`. Accepted options are `start`, `center`,
 and `end`. The default alignment is `center`.
-
-```jsx
-<div style={{ display: 'flex', gap: '1rem' }}>
-  <Button
-    hasIconOnly
-    renderIcon={Add}
-    iconDescription="Add to selection"
-    tooltipAlignment="start"
-  />
-  <Button hasIconOnly renderIcon={Add} iconDescription="Add to selection" />
-  <Button
-    hasIconOnly
-    renderIcon={Add}
-    iconDescription="Add to selection"
-    tooltipAlignment="end"
-  />
-</div>
-```
 
 ```jsx
 <Button hasIconOnly renderIcon={Add} iconDescription="Add to selection" tooltipAlignment="start" />
@@ -349,30 +249,6 @@ a position and will render the tooltip accordingly. Accepted options are `top`,
 `bottom`, `left`, and `right`. The default is position is `top`.
 
 ```jsx
-<div style={{ display: 'flex', gap: '1rem' }}>
-  <Button hasIconOnly renderIcon={Add} iconDescription="Add" />
-  <Button
-    hasIconOnly
-    renderIcon={Add}
-    iconDescription="Add"
-    tooltipPosition="right"
-  />
-  <Button
-    hasIconOnly
-    renderIcon={Add}
-    iconDescription="Add"
-    tooltipPosition="bottom"
-  />
-  <Button
-    hasIconOnly
-    renderIcon={Add}
-    iconDescription="Add"
-    tooltipPosition="left"
-  />
-</div>
-```
-
-```jsx
 <Button hasIconOnly renderIcon={Add} iconDescription="Add" />
 <Button hasIconOnly renderIcon={Add} iconDescription="Add" tooltipPosition="right"/>
 <Button hasIconOnly renderIcon={Add} iconDescription="Add" tooltipPosition="bottom"/>
@@ -383,13 +259,6 @@ a position and will render the tooltip accordingly. Accepted options are `top`,
 
 By passing in `stacked` to the `ButtonSet` component, you can arrange your two
 `Button` elements vertically
-
-```jsx
-<ButtonSet stacked>
-  <Button kind="secondary">Secondary button</Button>
-  <Button kind="primary">Primary button</Button>
-</ButtonSet>
-```
 
 ```jsx
 <ButtonSet stacked>

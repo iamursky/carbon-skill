@@ -47,11 +47,18 @@ actions a user could choose from, then a lower emphasis style like the danger
 tertiary button or the danger ghost button may be more appropriate.
 
 ```jsx
-<div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+<Unstyled
+  style={{
+    padding: '1rem',
+    background: 'var(--cds-background)',
+    flexWrap: 'wrap',
+    display: 'flex',
+    gap: '1rem',
+  }}>
   <cds-button kind="danger">Danger</cds-button>
   <cds-button kind="danger-tertiary">Danger tertiary</cds-button>
   <cds-button kind="danger-ghost">Danger ghost</cds-button>
-</div>
+</Unstyled>
 ```
 
 ## Icon-only Button
@@ -89,10 +96,6 @@ This attribute allows you to specify an address to navigate to on click. This
 will change the underlying `Button` element to be rendered as an `a` anchor
 element.
 
-```jsx
-<cds-button href="https://www.carbondesignsystem.com">Navigate</cds-button>
-```
-
 ```html
 <cds-button href="https://www.carbondesignsystem.com">Navigate</cds-button>
 ```
@@ -104,18 +107,6 @@ Carbon has seven types of buttons, `primary`, `secondary`, `tertiary`, `ghost`,
 `primary` button will be rendered. For more information on when to use each
 variant, check out the
 [design documentation](https://www.carbondesignsystem.com/components/button/usage#overview)
-
-```jsx
-<div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-  <cds-button>Primary</cds-button>
-  <cds-button kind="secondary">Secondary</cds-button>
-  <cds-button kind="tertiary">Tertiary </cds-button>
-  <cds-button kind="danger">Danger</cds-button>
-  <cds-button kind="danger-tertiary">Danger tertiary</cds-button>
-  <cds-button kind="danger-ghost">Danger Ghost</cds-button>
-  <cds-button kind="ghost">Ghost</cds-button>
-</div>
-```
 
 ```html
 <cds-button>Primary</cds-button>
@@ -148,40 +139,45 @@ button. Setting count displays a number. adding the child without `count` shows
 a red dot.
 
 ```jsx
-<unstyled>
-  <div style={{ display: 'flex', gap: '1rem' }}>
-    <cds-button kind="ghost" size="lg" tooltip-text="Icon Description">
-      <svg
-        focusable="false"
-        preserveAspectRatio="xMidYMid meet"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="currentColor"
-        slot="icon"
-        width="16"
-        height="16"
-        viewBox="0 0 32 32"
-        aria-hidden="true">
-        <path d="M17 15 17 8 15 8 15 15 8 15 8 17 15 17 15 24 17 24 17 17 24 17 24 15z"></path>
-      </svg>
-      <cds-badge-indicator count="5"></cds-badge-indicator>
-    </cds-button>
-    <cds-button kind="ghost" size="lg" tooltip-text="Icon Description">
-      <svg
-        focusable="false"
-        preserveAspectRatio="xMidYMid meet"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="currentColor"
-        slot="icon"
-        width="16"
-        height="16"
-        viewBox="0 0 32 32"
-        aria-hidden="true">
-        <path d="M17 15 17 8 15 8 15 15 8 15 8 17 15 17 15 24 17 24 17 17 24 17 24 15z"></path>
-      </svg>
-      <cds-badge-indicator></cds-badge-indicator>
-    </cds-button>
-  </div>
-</unstyled>
+<Unstyled
+  style={{
+    padding: '1rem',
+    background: 'var(--cds-background)',
+    flexWrap: 'wrap',
+    display: 'flex',
+    gap: '1rem',
+  }}>
+  <cds-button kind="ghost" size="lg" tooltip-text="Icon Description">
+    <svg
+      focusable="false"
+      preserveAspectRatio="xMidYMid meet"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      slot="icon"
+      width="16"
+      height="16"
+      viewBox="0 0 32 32"
+      aria-hidden="true">
+      <path d="M17 15 17 8 15 8 15 15 8 15 8 17 15 17 15 24 17 24 17 17 24 17 24 15z"></path>
+    </svg>
+    <cds-badge-indicator count="5"></cds-badge-indicator>
+  </cds-button>
+  <cds-button kind="ghost" size="lg" tooltip-text="Icon Description">
+    <svg
+      focusable="false"
+      preserveAspectRatio="xMidYMid meet"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      slot="icon"
+      width="16"
+      height="16"
+      viewBox="0 0 32 32"
+      aria-hidden="true">
+      <path d="M17 15 17 8 15 8 15 15 8 15 8 17 15 17 15 24 17 24 17 17 24 17 24 15z"></path>
+    </svg>
+    <cds-badge-indicator></cds-badge-indicator>
+  </cds-button>
+</Unstyled>
 ```
 
 ### Icon Button `tooltip-alignment`
