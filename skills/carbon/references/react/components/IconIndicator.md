@@ -10,6 +10,7 @@
 - [Overview](#overview)
 - [Kind](#kind)
 - [Size](#size)
+- [Compact mode](#compact-mode)
 - [Customizing the label](#customizing-the-label)
 - [Component API](#component-api)
 - [Feedback](#feedback)
@@ -39,6 +40,17 @@ unknown, and informative.
 ## Size
 
 Icon indicators have two size options 16 and 20. The default is 16.
+
+## Compact mode
+
+When the `compact` prop is set to `true`, the icon indicator displays only the
+icon with the label shown in a tooltip on hover/focus. This is useful when space
+is limited or when you want to display multiple indicators in a space
+constrained layout.
+
+```jsx
+<IconIndicator kind="succeeded" label="Succeeded" compact />
+```
 
 ## Customizing the label
 
