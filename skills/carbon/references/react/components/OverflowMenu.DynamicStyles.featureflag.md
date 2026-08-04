@@ -20,7 +20,7 @@ This version of the `OverflowMenu` can be enabled by using the
 [subcomponents of `Menu`](https://github.com/carbon-design-system/carbon/blob/main/docs/components-menu--default#subcomponents).
 
 ```jsx
-<FeatureFlags enableV12OverflowMenu>
+<FeatureFlags enableV12Overflowmenu>
   <OverflowMenu label="Primary action">
     <MenuItem label="Stop app" />
     <MenuItem label="Restart app" />
