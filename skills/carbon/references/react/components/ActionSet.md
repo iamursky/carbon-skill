@@ -1,0 +1,35 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/ActionSet/ActionSet.mdx
+
+# ActionSet
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Example usage](#example-usage)
+- [Component API](#component-api)
+
+## Overview
+
+The `ActionSet` component presents a set of action buttons, built from an array
+of Carbon button configurations. It handles layout and ordering rules
+automatically based on the available size:
+
+- **`sm`** — buttons always stack vertically; maximum 3 buttons; no ghost
+  buttons alongside other types.
+- **`md`** — buttons stack when there are 3 or more; maximum 3 buttons when
+  stacking.
+- **`lg`** — two buttons each take 50% width; three or more each take 25% width.
+- **`xl` / `2xl`** — buttons always take 25% width up to a maximum of 232px
+  each.
+
+Ghost buttons are always placed at the start (left) of the set, and primary
+buttons are always placed at the end (right). When stacking, this order is
+reversed so the primary action appears at the top.
+
+## Example usage
+
+## Component API
+
+```jsx
+<Controls />
+```
