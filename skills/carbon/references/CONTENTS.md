@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**245 pages.**
+**251 pages.**
 
 ## @carbon/react — React components
 
@@ -12,6 +12,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [AILabel](react/components/AILabelDataTable.md) — `react/components/AILabelDataTable.md`
 - [AI Skeleton](react/components/AISkeleton.md) — `react/components/AISkeleton.md`
 - [Accordion](react/components/Accordion.md) — `react/components/Accordion.md`
+- [ActionSet](react/components/ActionSet.md) — `react/components/ActionSet.md`
 - [AspectRatio](react/components/AspectRatio.md) — `react/components/AspectRatio.md`
 - [Breadcrumb](react/components/Breadcrumb.md) — `react/components/Breadcrumb.md`
 - [Buttons](react/components/Button.md) — `react/components/Button.md`
@@ -30,6 +31,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [CopyButton](react/components/CopyButton.md) — `react/components/CopyButton.md`
 - [DataTable](react/components/DataTable.md) — `react/components/DataTable.md`
 - [Date Picker](react/components/DatePicker.md) — `react/components/DatePicker.md`
+- [Date picker](react/components/DatePickerV2.md) — `react/components/DatePickerV2.md`
 - [DefinitionTooltip](react/components/DefinitionTooltip.md) — `react/components/DefinitionTooltip.md`
 - [Dialog](react/components/Dialog.md) — `react/components/Dialog.md`
 - [Dynamically set floating styles](react/components/Dropdown.DynamicStyles.featureflag.md) — `react/components/Dropdown.DynamicStyles.featureflag.md`
@@ -90,10 +92,12 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [ProgressBar](react/components/ProgressBar.md) — `react/components/ProgressBar.md`
 - [ProgressIndicator](react/components/ProgressIndicator.md) — `react/components/ProgressIndicator.md`
 - [RadioButton](react/components/RadioButton.md) — `react/components/RadioButton.md`
+- [Resizer](react/components/Resizer.md) — `react/components/Resizer.md`
 - [Search](react/components/Search.md) — `react/components/Search.md`
 - [Section](react/components/Section.md) — `react/components/Section.md`
 - [Select](react/components/Select.md) — `react/components/Select.md`
 - [ShapeIndicator](react/components/ShapeIndicator.md) — `react/components/ShapeIndicator.md`
+- [SidePanel](react/components/SidePanel.md) — `react/components/SidePanel.md`
 - [SkeletonIcon](react/components/SkeletonIcon.md) — `react/components/SkeletonIcon.md`
 - [SkeletonPlaceholder](react/components/SkeletonPlaceholder.md) — `react/components/SkeletonPlaceholder.md`
 - [SkeletonText](react/components/SkeletonText.md) — `react/components/SkeletonText.md`
@@ -119,6 +123,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Tooltip](react/components/Tooltip.md) — `react/components/Tooltip.md`
 - [TreeView controllable](react/components/TreeView.featureflag.md) — `react/components/TreeView.featureflag.md`
 - [TreeView](react/components/TreeView.md) — `react/components/TreeView.md`
+- [TruncatedText](react/components/TruncatedText.md) — `react/components/TruncatedText.md`
 - [UIShell](react/components/UIShell.md) — `react/components/UIShell.md`
 - [UnorderedList](react/components/UnorderedList.md) — `react/components/UnorderedList.md`
 - [Definition Tooltip](react/components/definition-tooltip-overview.md) — `react/components/definition-tooltip-overview.md`
@@ -147,6 +152,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Copy button](web-components/components/copy-button.md) — `web-components/components/copy-button.md`
 - [AI Label in DataTable](web-components/components/data-table-ai-label.md) — `web-components/components/data-table-ai-label.md`
 - [Data table](web-components/components/data-table.md) — `web-components/components/data-table.md`
+- [Date picker](web-components/components/date-picker-v2.md) — `web-components/components/date-picker-v2.md`
 - [Date picker](web-components/components/date-picker.md) — `web-components/components/date-picker.md`
 - [DefinitionTooltip](web-components/components/definition-tooltip.md) — `web-components/components/definition-tooltip.md`
 - [Dialog](web-components/components/dialog.md) — `web-components/components/dialog.md`
