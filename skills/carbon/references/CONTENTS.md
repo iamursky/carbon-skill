@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**251 pages.**
+**253 pages.**
 
 ## @carbon/react — React components
 
@@ -16,6 +16,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [AspectRatio](react/components/AspectRatio.md) — `react/components/AspectRatio.md`
 - [Breadcrumb](react/components/Breadcrumb.md) — `react/components/Breadcrumb.md`
 - [Buttons](react/components/Button.md) — `react/components/Button.md`
+- [Card](react/components/Card.md) — `react/components/Card.md`
 - [Checkbox](react/components/Checkbox.md) — `react/components/Checkbox.md`
 - [ClassPrefix](react/components/ClassPrefix.md) — `react/components/ClassPrefix.md`
 - [CodeSnippet](react/components/CodeSnippet.md) — `react/components/CodeSnippet.md`
@@ -271,4 +272,5 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Type](migration/11.x-type.md) — `migration/11.x-type.md`
 - [Carbon Web Components: v2 migration guide](migration/cwc-v2-migration.md) — `migration/cwc-v2-migration.md`
 - [v11](migration/v11.md) — `migration/v11.md`
+- [v12](migration/v12.md) — `migration/v12.md`
 
