@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**253 pages.**
+**255 pages.**
 
 ## @carbon/react — React components
 
@@ -65,6 +65,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Icons](react/components/Icons.md) — `react/components/Icons.md`
 - [Prefix](react/components/IdPrefix.md) — `react/components/IdPrefix.md`
 - [InlineLoading](react/components/InlineLoading.md) — `react/components/InlineLoading.md`
+- [InterstitialScreen](react/components/InterstitialScreen.md) — `react/components/InterstitialScreen.md`
 - [Layer](react/components/Layer.md) — `react/components/Layer.md`
 - [Layout](react/components/Layout.md) — `react/components/Layout.md`
 - [LayoutDirection](react/components/LayoutDirection.md) — `react/components/LayoutDirection.md`
@@ -127,6 +128,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [TruncatedText](react/components/TruncatedText.md) — `react/components/TruncatedText.md`
 - [UIShell](react/components/UIShell.md) — `react/components/UIShell.md`
 - [UnorderedList](react/components/UnorderedList.md) — `react/components/UnorderedList.md`
+- [UserAvatar](react/components/UserAvatar.md) — `react/components/UserAvatar.md`
 - [Definition Tooltip](react/components/definition-tooltip-overview.md) — `react/components/definition-tooltip-overview.md`
 - [ModalWrapper deprecation](react/components/migration.md) — `react/components/migration.md`
 - [Text Direction](react/components/text-direction-overview.md) — `react/components/text-direction-overview.md`
