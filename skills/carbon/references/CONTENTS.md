@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**255 pages.**
+**256 pages.**
 
 ## @carbon/react — React components
 
@@ -37,6 +37,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Dialog](react/components/Dialog.md) — `react/components/Dialog.md`
 - [Dynamically set floating styles](react/components/Dropdown.DynamicStyles.featureflag.md) — `react/components/Dropdown.DynamicStyles.featureflag.md`
 - [Dropdown](react/components/Dropdown.md) — `react/components/Dropdown.md`
+- [EditInPlace](react/components/EditInPlace.md) — `react/components/EditInPlace.md`
 - [Error Boundary](react/components/ErrorBoundary.md) — `react/components/ErrorBoundary.md`
 - [Feature Flags](react/components/FeatureFlags.md) — `react/components/FeatureFlags.md`
 - [Enhanced FileUploader Callbacks](react/components/FileUploader.featureflag.md) — `react/components/FileUploader.featureflag.md`
