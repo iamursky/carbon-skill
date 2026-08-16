@@ -42,7 +42,7 @@ For example, to render an `article` you could use `as="article"`:
 
 ```jsx
 <Section as="article">
-  <Heading>Your heading</Heading>
+  <Heading>Delivery milestones</Heading>
 </Section>
 ```
 
@@ -52,9 +52,9 @@ You can use the `level` prop to override the level of a section:
 
 ```jsx
 <Section level={5}>
-  <Heading>rendered as h5</Heading>
+  <Heading>Release readiness</Heading>
   <Section>
-    <Heading>rendered as h6</Heading>
+    <Heading>Final approvals</Heading>
   </Section>
 </Section>
 ```
