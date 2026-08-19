@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**256 pages.**
+**257 pages.**
 
 ## @carbon/react — React components
 
@@ -82,6 +82,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [ActionableNotification](react/components/Notification.featureflag.md) — `react/components/Notification.featureflag.md`
 - [Notification](react/components/Notification.md) — `react/components/Notification.md`
 - [NumberInput](react/components/NumberInput.md) — `react/components/NumberInput.md`
+- [OptionsTile](react/components/OptionsTile.md) — `react/components/OptionsTile.md`
 - [OrderedList](react/components/OrderedList.md) — `react/components/OrderedList.md`
 - [OverflowMenu Next](react/components/OverflowMenu-next.md) — `react/components/OverflowMenu-next.md`
 - [OverflowMenu](react/components/OverflowMenu.DynamicStyles.featureflag.md) — `react/components/OverflowMenu.DynamicStyles.featureflag.md`
