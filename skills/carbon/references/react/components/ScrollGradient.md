@@ -1,0 +1,33 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/ScrollGradient/docs/overview.mdx
+
+# ScrollGradient
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Example usage](#example-usage)
+- [Component API](#component-api)
+
+## Overview
+
+`ScrollGradient` implements gradient fades in horizontal and vertical directions
+based on the user's scroll position. The gradient appears when there is more
+content to scroll to, and disappears when the scroll position reaches the edge.
+This visually informs the user that additional content exists beyond the visible
+area.
+
+## Example usage
+
+## Code sample
+
+```jsx
+<ScrollGradient>
+  <p>Scrolling content here</p>
+</ScrollGradient>
+```
+
+## Component API
+
+```jsx
+<Controls />
+```

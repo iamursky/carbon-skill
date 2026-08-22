@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**259 pages.**
+**260 pages.**
 
 ## @carbon/react — React components
 
@@ -99,6 +99,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [ProgressIndicator](react/components/ProgressIndicator.md) — `react/components/ProgressIndicator.md`
 - [RadioButton](react/components/RadioButton.md) — `react/components/RadioButton.md`
 - [Resizer](react/components/Resizer.md) — `react/components/Resizer.md`
+- [ScrollGradient](react/components/ScrollGradient.md) — `react/components/ScrollGradient.md`
 - [Search](react/components/Search.md) — `react/components/Search.md`
 - [Section](react/components/Section.md) — `react/components/Section.md`
 - [Select](react/components/Select.md) — `react/components/Select.md`
