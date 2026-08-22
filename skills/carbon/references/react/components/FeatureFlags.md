@@ -4,6 +4,20 @@
 
 [Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/FeatureFlags)
 
+## Table of Contents
+
+- [About feature flags](#about-feature-flags)
+- [Current feature flags](#current-feature-flags)
+- [Documentation](#documentation)
+- [Using Codemods for Migration](#using-codemods-for-migration)
+  - [Running a Codemod](#running-a-codemod)
+- [Feature flag naming convention](#feature-flag-naming-convention)
+  - [Flags prefixed with `enable-*`](#flags-prefixed-with-enable-)
+  - [Flags prefixed with `enable-v#-*`](#flags-prefixed-with-enable-v-)
+- [Turning on feature flags in Javascript/react](#turning-on-feature-flags-in-javascriptreact)
+- [Turning on feature flags in Sass](#turning-on-feature-flags-in-sass)
+- [FeatureFlags Prop Update](#featureflags-prop-update)
+
 {FeatureFlags}
 
 ## Turning on feature flags in Javascript/react
