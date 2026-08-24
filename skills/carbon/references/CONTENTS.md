@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**260 pages.**
+**263 pages.**
 
 ## @carbon/react — React components
 
@@ -206,9 +206,11 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Progress bar](web-components/components/progress-bar.md) — `web-components/components/progress-bar.md`
 - [ProgressIndicator](web-components/components/progress-indicator.md) — `web-components/components/progress-indicator.md`
 - [Radio button](web-components/components/radio-button.md) — `web-components/components/radio-button.md`
+- [Resizer](web-components/components/resizer.md) — `web-components/components/resizer.md`
 - [Search](web-components/components/search.md) — `web-components/components/search.md`
 - [Select](web-components/components/select.md) — `web-components/components/select.md`
 - [Shape indicator](web-components/components/shape-indicator.md) — `web-components/components/shape-indicator.md`
+- [SidePanel](web-components/components/side-panel.md) — `web-components/components/side-panel.md`
 - [Skeleton icon](web-components/components/skeleton-icon.md) — `web-components/components/skeleton-icon.md`
 - [Skeleton placeholder](web-components/components/skeleton-placeholder.md) — `web-components/components/skeleton-placeholder.md`
 - [Skeleton text](web-components/components/skeleton-text.md) — `web-components/components/skeleton-text.md`
@@ -227,6 +229,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Toggletip](web-components/components/toggletip.md) — `web-components/components/toggletip.md`
 - [Tooltip](web-components/components/tooltip.md) — `web-components/components/tooltip.md`
 - [Tree View](web-components/components/tree-view.md) — `web-components/components/tree-view.md`
+- [TruncatedText](web-components/components/truncated-text.md) — `web-components/components/truncated-text.md`
 - [UI Shell](web-components/components/ui-shell.md) — `web-components/components/ui-shell.md`
 - [Unordered list](web-components/components/unordered-list.md) — `web-components/components/unordered-list.md`
 

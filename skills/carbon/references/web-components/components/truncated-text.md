@@ -1,0 +1,41 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/web-components/src/components/truncated-text/truncated-text.mdx
+
+# TruncatedText
+
+The truncated text utility can truncate text based on a specified number of
+lines, provided via a prop. It offers two configurable options for revealing the
+full content:
+
+- Tooltip mode `type="tooltip"`: Displays the full text in a tooltip overlay on
+  hover.
+
+- Expandable mode `type="expand"`: Reveals the complete content through
+  collapsible "Read more" / "Read less" toggles. These labels can be customized
+  using the `expand-label` and `collapse-label` attributes on the component.
+
+## Default type tooltip
+
+## Type expand
+
+## Getting started
+
+Here's a quick example to get you started.
+
+### JS (via import)
+
+```javascript
+import '@carbon/web-components/es/components/truncated-text/index.js';
+```
+
+### HTML
+
+```html
+<cds-truncated-text
+  value="Buttons are used to initialize an action, either in the background or foreground of an experience. There are several kinds of buttons. Primary buttons should be used for the principal call to action on the page. Secondary buttons should be used for secondary actions on each page. Danger buttons should be used for a negative action (such as Delete) on the page. Modify the behavior of the button by changing its event properties. Small buttons may be used when there is not enough space for a regular-sized button. This issue is most often found in tables. Small buttons should have three words or fewer."
+  lines="2"
+  type="tooltip"></cds-truncated-text>
+```
+
+## `<cds-truncated-text>` attributes, properties and events
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
