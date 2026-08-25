@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**263 pages.**
+**264 pages.**
 
 ## @carbon/react — React components
 
@@ -14,6 +14,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Accordion](react/components/Accordion.md) — `react/components/Accordion.md`
 - [ActionSet](react/components/ActionSet.md) — `react/components/ActionSet.md`
 - [AspectRatio](react/components/AspectRatio.md) — `react/components/AspectRatio.md`
+- [BigNumber](react/components/BigNumber.md) — `react/components/BigNumber.md`
 - [Breadcrumb](react/components/Breadcrumb.md) — `react/components/Breadcrumb.md`
 - [Buttons](react/components/Button.md) — `react/components/Button.md`
 - [Card](react/components/Card.md) — `react/components/Card.md`
