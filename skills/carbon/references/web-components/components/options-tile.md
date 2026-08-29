@@ -1,0 +1,40 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/web-components/src/components/options-tile/options-tile.mdx
+
+# OptionsTile
+
+An options tile can contain information, controls or tables which, when
+collapsed, are summarized. It can be paired with a toggle to quickly enable or
+disable the option.
+
+## Getting started
+
+Here's a quick example to get you started.
+
+### JS (via import)
+
+```javascript
+import '@carbon/web-components/es/components/options-tile/index.js';
+```
+
+### Example Usage
+
+### HTML
+
+```html
+<cds-options-tile
+  id="my-tile"
+  size="lg"
+  titleText="A title describing all included content."
+  titleId="my-title">
+  <div slot="summary">
+    <span>A summary of the current state of content.</span>
+  </div>
+  <div slot="body">
+    Additional detail or content will be shown when expanded.
+  </div>
+</cds-options-tile>
+```
+
+## `<cds-options-tile>` attributes, properties and events
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._

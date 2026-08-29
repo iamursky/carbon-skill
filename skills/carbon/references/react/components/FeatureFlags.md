@@ -29,7 +29,7 @@ time.
 ```jsx
 import { FeatureFlags } from '@carbon/react';
 
-<FeatureFlags enableV12TileDefaultIcons="true" enableASecondFeatureFlag="true">
+<FeatureFlags enableV12TileDefaultIcons enableASecondFeatureFlag>
   <Tile />
 </FeatureFlags>;
 ```
@@ -47,7 +47,7 @@ import App from './App';
 const root = createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
-    <FeatureFlags enableV12TileDefaultIcons="true">
+    <FeatureFlags enableV12TileDefaultIcons>
       <App />
     </FeatureFlags>
   </StrictMode>
@@ -60,11 +60,12 @@ In Sass, you can enable feature flags in any of your stylesheets. Most often
 this is done at the root/entrypoint stylesheet.
 
 ```sass
-@use '@carbon/react' with (
+@use '@carbon/react/scss/feature-flags' with (
   $feature-flags: (
     'enable-tile-contrast': true,
   )
 );
+@use '@carbon/react';
 ```
 
 Feature flags can also be enabled via the provided `enable()` mixin
