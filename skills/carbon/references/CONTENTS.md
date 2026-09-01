@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**265 pages.**
+**266 pages.**
 
 ## @carbon/react — React components
 
@@ -84,6 +84,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [MultiSelect](react/components/MultiSelect.md) — `react/components/MultiSelect.md`
 - [ActionableNotification](react/components/Notification.featureflag.md) — `react/components/Notification.featureflag.md`
 - [Notification](react/components/Notification.md) — `react/components/Notification.md`
+- [NotificationsPanel](react/components/NotificationsPanel.md) — `react/components/NotificationsPanel.md`
 - [NumberInput](react/components/NumberInput.md) — `react/components/NumberInput.md`
 - [OptionsTile](react/components/OptionsTile.md) — `react/components/OptionsTile.md`
 - [OrderedList](react/components/OrderedList.md) — `react/components/OrderedList.md`
