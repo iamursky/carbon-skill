@@ -1,0 +1,41 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/NotificationsPanel/docs/overview.mdx
+
+# NotificationsPanel
+
+[Usage guidelines](https://pages.github.ibm.com/carbon/ibm-products/components/notification-panel/usage/)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Example usage](#example-usage)
+- [Component API](#component-api)
+
+## Overview
+
+The `NotificationsPanel` sets expectations on the behavior for notifications,
+allowing the user to view and interact with them all in one place. Notifications
+are grouped into **Today**, **Yesterday**, and **Previous** time buckets and are
+sorted chronologically within each group.
+
+### Localization
+
+Timestamps are localizable in two ways:
+
+1. **New approach (recommended):** Pass a BCP 47 locale string via
+   `dateTimeLocale` (e.g. `"de"`, `"fr-CA"`). The component will use
+   `@carbon/utilities` `dateTimeFormat.relative.format` to render locale-aware
+   relative time strings. The optional `dateTimeStyle` prop (`"long"` |
+   `"short"` | `"narrow"`) controls the verbosity.
+
+2. **Legacy approach (deprecated):** Provide individual text-function props
+   (`daysAgoText`, `hoursAgoText`, etc.) to override each time-unit string
+   manually. If you do not provide a locale, the deprecated props will be
+   applied instead.
+
+## Example usage
+
+## Component API
+
+```jsx
+<Controls />
+```
