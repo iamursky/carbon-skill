@@ -9,6 +9,7 @@
 - [About feature flags](#about-feature-flags)
 - [Current feature flags](#current-feature-flags)
 - [Documentation](#documentation)
+- [IBM Products component migration](#ibm-products-component-migration)
 - [Using Codemods for Migration](#using-codemods-for-migration)
   - [Running a Codemod](#running-a-codemod)
 - [Feature flag naming convention](#feature-flag-naming-convention)
