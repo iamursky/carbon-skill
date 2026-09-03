@@ -11,7 +11,6 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Fluid](#fluid)
   - [Read Only](#read-only)
   - [Skeleton](#skeleton)
   - [AI Label](#ai-label)
@@ -25,8 +24,6 @@
 Text inputs enable users to enter free-form text data. The type of text field
 used should reflect the length of the content you expect the user to enter. The
 default text input is for short, one-line content.
-
-### Fluid
 
 ### Read Only
 

@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**266 pages.**
+**269 pages.**
 
 ## @carbon/react — React components
 
@@ -62,6 +62,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [FormLabel](react/components/FormLabel.md) — `react/components/FormLabel.md`
 - [FullPageError](react/components/FullPageError.md) — `react/components/FullPageError.md`
 - [Grid](react/components/Grid.md) — `react/components/Grid.md`
+- [Guidebanner](react/components/Guidebanner.md) — `react/components/Guidebanner.md`
 - [Heading](react/components/Heading.md) — `react/components/Heading.md`
 - [Hide At Breakpoint](react/components/HideAtBreakpoint.md) — `react/components/HideAtBreakpoint.md`
 - [IconButton](react/components/IconButton.md) — `react/components/IconButton.md`
@@ -150,6 +151,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [AI Label](web-components/components/ai-label.md) — `web-components/components/ai-label.md`
 - [AI Skeleton](web-components/components/ai-skeleton.md) — `web-components/components/ai-skeleton.md`
 - [Auto align](web-components/components/autoalign.md) — `web-components/components/autoalign.md`
+- [BigNumber](web-components/components/big-number.md) — `web-components/components/big-number.md`
 - [Breadcrumb](web-components/components/breadcrumb.md) — `web-components/components/breadcrumb.md`
 - [Button](web-components/components/button.md) — `web-components/components/button.md`
 - [Chat button](web-components/components/chat-button.md) — `web-components/components/chat-button.md`
@@ -167,6 +169,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [DefinitionTooltip](web-components/components/definition-tooltip.md) — `web-components/components/definition-tooltip.md`
 - [Dialog](web-components/components/dialog.md) — `web-components/components/dialog.md`
 - [Dropdown](web-components/components/dropdown.md) — `web-components/components/dropdown.md`
+- [Edit in place](web-components/components/edit-in-place.md) — `web-components/components/edit-in-place.md`
 - [Feature Flags](web-components/components/feature-flags.md) — `web-components/components/feature-flags.md`
 - [File uploader](web-components/components/file-uploader.md) — `web-components/components/file-uploader.md`
 - [Fluid Combo Box](web-components/components/fluid-combo-box.md) — `web-components/components/fluid-combo-box.md`
