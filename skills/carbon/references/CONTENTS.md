@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**269 pages.**
+**271 pages.**
 
 ## @carbon/react — React components
 
@@ -118,6 +118,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [StructuredList](react/components/StructuredList.md) — `react/components/StructuredList.md`
 - [Tabs](react/components/Tabs.md) — `react/components/Tabs.md`
 - [Tag](react/components/Tag.md) — `react/components/Tag.md`
+- [Tearsheet](react/components/Tearsheet.md) — `react/components/Tearsheet.md`
 - [Text](react/components/Text.md) — `react/components/Text.md`
 - [TextArea](react/components/TextArea.md) — `react/components/TextArea.md`
 - [TextInput](react/components/TextInput.md) — `react/components/TextInput.md`
@@ -156,6 +157,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Button](web-components/components/button.md) — `web-components/components/button.md`
 - [Chat button](web-components/components/chat-button.md) — `web-components/components/chat-button.md`
 - [Checkbox](web-components/components/checkbox.md) — `web-components/components/checkbox.md`
+- [Coachmark](web-components/components/coachmark.md) — `web-components/components/coachmark.md`
 - [Code snippet](web-components/components/code-snippet.md) — `web-components/components/code-snippet.md`
 - [Combo box](web-components/components/combo-box.md) — `web-components/components/combo-box.md`
 - [ComboButton](web-components/components/combo-button.md) — `web-components/components/combo-button.md`
