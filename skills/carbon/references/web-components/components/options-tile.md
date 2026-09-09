@@ -6,6 +6,16 @@ An options tile can contain information, controls or tables which, when
 collapsed, are summarized. It can be paired with a toggle to quickly enable or
 disable the option.
 
+```jsx
+<Unstyled style={{ marginBottom: '1.5rem' }}>
+  <cds-inline-notification
+    kind="info"
+    title="Migrated component:"
+    subtitle="This component has been migrated from Carbon for IBM Products. While visible in the v12 Storybook, migrated components are not available in the published v11 package and enabling enable-v12-release does not expose them — they will be part of the public @carbon/web-components API when v12 ships."
+  />
+</Unstyled>
+```
+
 ## Getting started
 
 Here's a quick example to get you started.

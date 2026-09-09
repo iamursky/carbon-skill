@@ -17,6 +17,14 @@
 - [Component API](#component-api)
 - [Feedback](#feedback)
 
+```jsx
+<InlineNotification
+  kind="info"
+  title="Migrated component:"
+  subtitle="This component has been migrated from Carbon for IBM Products. While visible in the v12 Storybook, migrated components are not available in the published v11 package and enabling enable-v12-release does not expose them — they will be part of the public @carbon/react API when v12 ships."
+/>
+```
+
 ## Overview
 
 `SidePanel` keeps users in-context of a page while performing tasks like

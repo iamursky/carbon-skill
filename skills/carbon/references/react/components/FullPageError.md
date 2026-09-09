@@ -9,6 +9,14 @@
 - [Component API](#component-api)
   - [Migrating from HTTP errors](https://github.com/carbon-design-system/ibm-products/blob/main/docs/guides/v2.md#carbon-for-ibm-products-v2-migration-guide)
 
+```jsx
+<InlineNotification
+  kind="info"
+  title="Migrated component:"
+  subtitle="This component has been migrated from Carbon for IBM Products. While visible in the v12 Storybook, migrated components are not available in the published v11 package and enabling enable-v12-release does not expose them — they will be part of the public @carbon/react API when v12 ships."
+/>
+```
+
 ## Overview
 
 Display a full-page error when the requested page is unavailable to the user.

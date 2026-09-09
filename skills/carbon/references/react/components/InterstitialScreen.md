@@ -11,6 +11,14 @@
 - [About Onboarding](#about-onboarding)
 - [Component API](#component-api)
 
+```jsx
+<InlineNotification
+  kind="info"
+  title="Migrated component:"
+  subtitle="This component has been migrated from Carbon for IBM Products. While visible in the v12 Storybook, migrated components are not available in the published v11 package and enabling enable-v12-release does not expose them — they will be part of the public @carbon/react API when v12 ships."
+/>
+```
+
 ## Overview
 
 [Interstitial screen](https://pages.github.ibm.com/carbon/ibm-products/components/onboarding/interstitial-screen/usage)
