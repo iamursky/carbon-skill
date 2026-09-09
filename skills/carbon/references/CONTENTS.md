@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**271 pages.**
+**273 pages.**
 
 ## @carbon/react — React components
 
@@ -155,6 +155,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [BigNumber](web-components/components/big-number.md) — `web-components/components/big-number.md`
 - [Breadcrumb](web-components/components/breadcrumb.md) — `web-components/components/breadcrumb.md`
 - [Button](web-components/components/button.md) — `web-components/components/button.md`
+- [Card](web-components/components/card.md) — `web-components/components/card.md`
 - [Chat button](web-components/components/chat-button.md) — `web-components/components/chat-button.md`
 - [Checkbox](web-components/components/checkbox.md) — `web-components/components/checkbox.md`
 - [Coachmark](web-components/components/coachmark.md) — `web-components/components/coachmark.md`
@@ -240,6 +241,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [TruncatedText](web-components/components/truncated-text.md) — `web-components/components/truncated-text.md`
 - [UI Shell](web-components/components/ui-shell.md) — `web-components/components/ui-shell.md`
 - [Unordered list](web-components/components/unordered-list.md) — `web-components/components/unordered-list.md`
+- [User-avatar](web-components/components/user-avatar.md) — `web-components/components/user-avatar.md`
 
 ## Elements & packages (foundations)
 

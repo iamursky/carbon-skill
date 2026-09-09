@@ -6,6 +6,16 @@ The EditInPlace component allows users to edit text inline with save and cancel
 actions. It provides a seamless editing experience with keyboard support and
 validation.
 
+```jsx
+<Unstyled style={{ marginBottom: '1.5rem' }}>
+  <cds-inline-notification
+    kind="info"
+    title="Migrated component:"
+    subtitle="This component has been migrated from Carbon for IBM Products. While visible in the v12 Storybook, migrated components are not available in the published v11 package and enabling enable-v12-release does not expose them — they will be part of the public @carbon/web-components API when v12 ships."
+  />
+</Unstyled>
+```
+
 ## Getting started
 
 Here's a quick example to get you started.
