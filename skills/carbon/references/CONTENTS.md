@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**274 pages.**
+**275 pages.**
 
 ## @carbon/react — React components
 
@@ -185,6 +185,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Time Picker](web-components/components/fluid-time-picker.md) — `web-components/components/fluid-time-picker.md`
 - [Form group](web-components/components/form-group.md) — `web-components/components/form-group.md`
 - [Form](web-components/components/form.md) — `web-components/components/form.md`
+- [FullPageError](web-components/components/full-page-error.md) — `web-components/components/full-page-error.md`
 - [Grid](web-components/components/grid.md) — `web-components/components/grid.md`
 - [Section](web-components/components/heading-section.md) — `web-components/components/heading-section.md`
 - [Heading](web-components/components/heading.md) — `web-components/components/heading.md`
