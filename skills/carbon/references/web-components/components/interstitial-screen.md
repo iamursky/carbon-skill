@@ -1,0 +1,81 @@
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/web-components/src/components/interstitial-screen/interstitial-screen.mdx
+
+# InterstitialScreen
+
+> 💡 Check our
+> [Stackblitz](https://stackblitz.com/github/carbon-design-system/ibm-products/tree/main/packages/ibm-products-web-components/examples/interstitial-screen)
+> example implementation.
+
+[Usage guidelines](https://pages.github.ibm.com/carbon/ibm-products/components/onboarding/interstitial-screen/usage)
+
+[Interstitial screen](https://pages.github.ibm.com/carbon/ibm-products/components/onboarding/interstitial-screen/usage)
+can be a full page or an overlay, and are shown on the first time a user
+accesses a new experience (e.g. upon first login or first time opening a page
+where a newly purchased capability is presented).
+
+```jsx
+<Unstyled style={{ marginBottom: '1.5rem' }}>
+  <cds-inline-notification
+    kind="info"
+    title="Migrated component:"
+    subtitle="This component has been migrated from Carbon for IBM Products. While visible in the v12 Storybook, migrated components are not available in the published v11 package and enabling enable-v12-release does not expose them — they will be part of the public @carbon/web-components API when v12 ships."
+  />
+</Unstyled>
+```
+
+## Getting started
+
+Here's a quick example to get you started.
+
+### JS (via import)
+
+```javascript
+import '@carbon/web-components/es/components/interstitial-screen/index.js';
+```
+
+### HTML
+
+```html
+<cds-interstitial-screen
+  ?fullscreen="${false}"
+  ?open="${true}"
+  @cds-interstitial-opened="${(e) => { console.log('event initialize', e.detail); }}">
+  <cds-interstitial-screen-header
+    header-title="Use case-specific title"
+    header-subtitle="Use case-specific sub title"></cds-interstitial-screen-header>
+  <cds-interstitial-screen-body>
+    <cds-interstitial-screen-body-item
+      id="${eachContent.id}"
+      stepTitle="${eachContent.stepTitle}">
+      <div
+        role="complementary"
+        aria-label="${eachContent.stepTitle}"
+        class="cds--interstitial-screen-view">
+        <section class="${blockClass}">
+          <h1 class="${blockClass}--heading">${eachContent.title}</h1>
+          <p class="${blockClass}--body">${eachContent.description}</p>
+        </section>
+      </div>
+    </cds-interstitial-screen-body-item>
+  </cds-interstitial-screen-body>
+  <cds-interstitial-screen-footer
+    @cds-on-action="${onAction}"></cds-interstitial-screen-footer>
+</cds-interstitial-screen>
+```
+
+## `<cds-interstitial-screen>` attributes, properties and events
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+
+## `<cds-interstitial-screen-header>` attributes, properties and events
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+## `<cds-interstitial-screen-body>` attributes, properties and events
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+## `<cds-interstitial-screen-body-item>` attributes, properties and events
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
+## `<cds-interstitial-screen-footer>` attributes, properties and events
+
+_The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://web-components.carbondesignsystem.com)._
