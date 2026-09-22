@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**278 pages.**
+**279 pages.**
 
 ## @carbon/react — React components
 
@@ -189,6 +189,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Form](web-components/components/form.md) — `web-components/components/form.md`
 - [FullPageError](web-components/components/full-page-error.md) — `web-components/components/full-page-error.md`
 - [Grid](web-components/components/grid.md) — `web-components/components/grid.md`
+- [GuideBanner](web-components/components/guide-banner.md) — `web-components/components/guide-banner.md`
 - [Section](web-components/components/heading-section.md) — `web-components/components/heading-section.md`
 - [Heading](web-components/components/heading.md) — `web-components/components/heading.md`
 - [Icon button](web-components/components/icon-button.md) — `web-components/components/icon-button.md`
