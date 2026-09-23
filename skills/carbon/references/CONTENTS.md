@@ -16,7 +16,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [AspectRatio](react/components/AspectRatio.md) — `react/components/AspectRatio.md`
 - [BigNumber](react/components/BigNumber.md) — `react/components/BigNumber.md`
 - [Breadcrumb](react/components/Breadcrumb.md) — `react/components/Breadcrumb.md`
-- [Buttons](react/components/Button.md) — `react/components/Button.md`
+- [Button](react/components/Button.md) — `react/components/Button.md`
 - [Card](react/components/Card.md) — `react/components/Card.md`
 - [Checkbox](react/components/Checkbox.md) — `react/components/Checkbox.md`
 - [ClassPrefix](react/components/ClassPrefix.md) — `react/components/ClassPrefix.md`
@@ -45,11 +45,11 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Enhanced FileUploader Callbacks](react/components/FileUploader.featureflag.md) — `react/components/FileUploader.featureflag.md`
 - [FileUploader](react/components/FileUploader.md) — `react/components/FileUploader.md`
 - [FlexGrid](react/components/FlexGrid.md) — `react/components/FlexGrid.md`
-- [Fluid ComboBox](react/components/FluidComboBox.md) — `react/components/FluidComboBox.md`
-- [Fluid DatePicker](react/components/FluidDatePicker.md) — `react/components/FluidDatePicker.md`
-- [Fluid Dropdown](react/components/FluidDropdown.md) — `react/components/FluidDropdown.md`
+- [FluidComboBox](react/components/FluidComboBox.md) — `react/components/FluidComboBox.md`
+- [FluidDatePicker](react/components/FluidDatePicker.md) — `react/components/FluidDatePicker.md`
+- [FluidDropdown](react/components/FluidDropdown.md) — `react/components/FluidDropdown.md`
 - [Fluid Form](react/components/FluidForm.md) — `react/components/FluidForm.md`
-- [Fluid Multiselect](react/components/FluidMultiSelect.md) — `react/components/FluidMultiSelect.md`
+- [FluidMultiSelect](react/components/FluidMultiSelect.md) — `react/components/FluidMultiSelect.md`
 - [Fluid NumberInput](react/components/FluidNumberInput.md) — `react/components/FluidNumberInput.md`
 - [Fluid PasswordInput](react/components/FluidPasswordInput.md) — `react/components/FluidPasswordInput.md`
 - [Fluid Search](react/components/FluidSearch.md) — `react/components/FluidSearch.md`
