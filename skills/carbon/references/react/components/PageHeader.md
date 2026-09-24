@@ -1,4 +1,4 @@
-> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/PageHeader/PageHeader.mdx
+> Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/PageHeaderDeprecated/PageHeader.mdx
 
 # PageHeader
 
