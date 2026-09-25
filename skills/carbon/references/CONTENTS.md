@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**279 pages.**
+**280 pages.**
 
 ## @carbon/react — React components
 
@@ -28,6 +28,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Dynamically set floating styles](react/components/Combobox.DynamicStyles.featureflag.md) — `react/components/Combobox.DynamicStyles.featureflag.md`
 - [Feature Flags for ComposedModal](react/components/ComposedModal.featureflag.md) — `react/components/ComposedModal.featureflag.md`
 - [ComposedModal](react/components/ComposedModal.md) — `react/components/ComposedModal.md`
+- [ConditionBuilder](react/components/ConditionBuilder.md) — `react/components/ConditionBuilder.md`
 - [ContainedList](react/components/ContainedList.md) — `react/components/ContainedList.md`
 - [Content Switcher](react/components/ContentSwitcher.md) — `react/components/ContentSwitcher.md`
 - [ContextMenu](react/components/ContextMenu.md) — `react/components/ContextMenu.md`
