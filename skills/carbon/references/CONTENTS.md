@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**280 pages.**
+**284 pages.**
 
 ## @carbon/react — React components
 
@@ -13,6 +13,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [AI Skeleton](react/components/AISkeleton.md) — `react/components/AISkeleton.md`
 - [Accordion](react/components/Accordion.md) — `react/components/Accordion.md`
 - [ActionSet](react/components/ActionSet.md) — `react/components/ActionSet.md`
+- [AddSelect](react/components/AddSelect.md) — `react/components/AddSelect.md`
 - [AspectRatio](react/components/AspectRatio.md) — `react/components/AspectRatio.md`
 - [BigNumber](react/components/BigNumber.md) — `react/components/BigNumber.md`
 - [Breadcrumb](react/components/Breadcrumb.md) — `react/components/Breadcrumb.md`
@@ -41,6 +42,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Dynamically set floating styles](react/components/Dropdown.DynamicStyles.featureflag.md) — `react/components/Dropdown.DynamicStyles.featureflag.md`
 - [Dropdown](react/components/Dropdown.md) — `react/components/Dropdown.md`
 - [EditInPlace](react/components/EditInPlace.md) — `react/components/EditInPlace.md`
+- [Empty State](react/components/EmptyState.md) — `react/components/EmptyState.md`
 - [Error Boundary](react/components/ErrorBoundary.md) — `react/components/ErrorBoundary.md`
 - [Feature Flags](react/components/FeatureFlags.md) — `react/components/FeatureFlags.md`
 - [Enhanced FileUploader Callbacks](react/components/FileUploader.featureflag.md) — `react/components/FileUploader.featureflag.md`
@@ -232,9 +234,11 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Skeleton text](web-components/components/skeleton-text.md) — `web-components/components/skeleton-text.md`
 - [Slider](web-components/components/slider.md) — `web-components/components/slider.md`
 - [Stack](web-components/components/stack.md) — `web-components/components/stack.md`
+- [Step Flow](web-components/components/step-flow.md) — `web-components/components/step-flow.md`
 - [Structured list](web-components/components/structured-list.md) — `web-components/components/structured-list.md`
 - [Tabs](web-components/components/tabs.md) — `web-components/components/tabs.md`
 - [Tag](web-components/components/tag.md) — `web-components/components/tag.md`
+- [Tearsheet](web-components/components/tearsheet.md) — `web-components/components/tearsheet.md`
 - [Text Input](web-components/components/text-input.md) — `web-components/components/text-input.md`
 - [Text Area](web-components/components/textarea.md) — `web-components/components/textarea.md`
 - [Tile Feature Flags](web-components/components/tile.featureflag.md) — `web-components/components/tile.featureflag.md`
