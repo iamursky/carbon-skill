@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**284 pages.**
+**290 pages.**
 
 ## @carbon/react — React components
 
@@ -34,10 +34,16 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Content Switcher](react/components/ContentSwitcher.md) — `react/components/ContentSwitcher.md`
 - [ContextMenu](react/components/ContextMenu.md) — `react/components/ContextMenu.md`
 - [CopyButton](react/components/CopyButton.md) — `react/components/CopyButton.md`
+- [CreateFullPage Pattern](react/components/CreateFullPage.md) — `react/components/CreateFullPage.md`
+- [Create Modal](react/components/CreateModal.md) — `react/components/CreateModal.md`
+- [Create Side Panel](react/components/CreateSidePanel.md) — `react/components/CreateSidePanel.md`
+- [Create Tearsheet Narrow](react/components/CreateTearsheet-2.md) — `react/components/CreateTearsheet-2.md`
+- [Create Tearsheet Pattern](react/components/CreateTearsheet.md) — `react/components/CreateTearsheet.md`
 - [DataTable](react/components/DataTable.md) — `react/components/DataTable.md`
 - [Date Picker](react/components/DatePicker.md) — `react/components/DatePicker.md`
 - [Date picker](react/components/DatePickerV2.md) — `react/components/DatePickerV2.md`
 - [DefinitionTooltip](react/components/DefinitionTooltip.md) — `react/components/DefinitionTooltip.md`
+- [Delete and remove](react/components/DeleteAndRemove.md) — `react/components/DeleteAndRemove.md`
 - [Dialog](react/components/Dialog.md) — `react/components/Dialog.md`
 - [Dynamically set floating styles](react/components/Dropdown.DynamicStyles.featureflag.md) — `react/components/Dropdown.DynamicStyles.featureflag.md`
 - [Dropdown](react/components/Dropdown.md) — `react/components/Dropdown.md`
@@ -216,7 +222,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Ordered list](web-components/components/ordered-list.md) — `web-components/components/ordered-list.md`
 - [OverflowMenu](web-components/components/overflow-menu.feature-flag.md) — `web-components/components/overflow-menu.feature-flag.md`
 - [Overflow menu](web-components/components/overflow-menu.md) — `web-components/components/overflow-menu.md`
-- [Page Header](web-components/components/page-header.md) — `web-components/components/page-header.md`
+- [Page Header Deprecated](web-components/components/page-header-deprecated.md) — `web-components/components/page-header-deprecated.md`
 - [Pagination Nav](web-components/components/pagination-nav.md) — `web-components/components/pagination-nav.md`
 - [Pagination](web-components/components/pagination.md) — `web-components/components/pagination.md`
 - [Password Input](web-components/components/password-input.md) — `web-components/components/password-input.md`
