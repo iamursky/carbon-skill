@@ -22,8 +22,8 @@
 
 ## Overview
 
-`EditInPlace` allows users to to edit text inline with save and cancel actions.
-It provides a seamless editing experience with keyboard support and validation.
+`EditInPlace` allows users to edit text inline with save and cancel actions. It
+provides a seamless editing experience with keyboard support and validation.
 
 ## Example usage
 
