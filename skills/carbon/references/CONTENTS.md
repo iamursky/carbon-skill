@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**295 pages.**
+**298 pages.**
 
 ## @carbon/react — React components
 
@@ -53,6 +53,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [EditInPlace](react/components/EditInPlace.md) — `react/components/EditInPlace.md`
 - [Empty State](react/components/EmptyState.md) — `react/components/EmptyState.md`
 - [Error Boundary](react/components/ErrorBoundary.md) — `react/components/ErrorBoundary.md`
+- [Export Modal](react/components/ExportModal.md) — `react/components/ExportModal.md`
 - [Feature Flags](react/components/FeatureFlags.md) — `react/components/FeatureFlags.md`
 - [Enhanced FileUploader Callbacks](react/components/FileUploader.featureflag.md) — `react/components/FileUploader.featureflag.md`
 - [FileUploader](react/components/FileUploader.md) — `react/components/FileUploader.md`
@@ -73,6 +74,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [FormGroup](react/components/FormGroup.md) — `react/components/FormGroup.md`
 - [FormLabel](react/components/FormLabel.md) — `react/components/FormLabel.md`
 - [FullPageError](react/components/FullPageError.md) — `react/components/FullPageError.md`
+- [Generate an API key](react/components/GenerateAnAPIKey.md) — `react/components/GenerateAnAPIKey.md`
 - [Grid](react/components/Grid.md) — `react/components/Grid.md`
 - [Guidebanner](react/components/Guidebanner.md) — `react/components/Guidebanner.md`
 - [Heading](react/components/Heading.md) — `react/components/Heading.md`
@@ -81,6 +83,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [IconIndicator](react/components/IconIndicator.md) — `react/components/IconIndicator.md`
 - [Icons](react/components/Icons.md) — `react/components/Icons.md`
 - [Prefix](react/components/IdPrefix.md) — `react/components/IdPrefix.md`
+- [Import and Upload](react/components/ImportAndUpload.md) — `react/components/ImportAndUpload.md`
 - [InlineLoading](react/components/InlineLoading.md) — `react/components/InlineLoading.md`
 - [InterstitialScreen](react/components/InterstitialScreen.md) — `react/components/InterstitialScreen.md`
 - [Layer](react/components/Layer.md) — `react/components/Layer.md`
