@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**298 pages.**
+**299 pages.**
 
 ## @carbon/react — React components
 
@@ -17,7 +17,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [AspectRatio](react/components/AspectRatio.md) — `react/components/AspectRatio.md`
 - [BigNumber](react/components/BigNumber.md) — `react/components/BigNumber.md`
 - [Breadcrumb](react/components/Breadcrumb.md) — `react/components/Breadcrumb.md`
-- [Button](react/components/Button.md) — `react/components/Button.md`
+- [Buttons](react/components/Button.md) — `react/components/Button.md`
 - [Card](react/components/Card.md) — `react/components/Card.md`
 - [Checkbox](react/components/Checkbox.md) — `react/components/Checkbox.md`
 - [ClassPrefix](react/components/ClassPrefix.md) — `react/components/ClassPrefix.md`
@@ -205,6 +205,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Form participation](web-components/components/form-participation.md) — `web-components/components/form-participation.md`
 - [Form](web-components/components/form.md) — `web-components/components/form.md`
 - [FullPageError](web-components/components/full-page-error.md) — `web-components/components/full-page-error.md`
+- [Generate an API key](web-components/components/generate-an-api-key.md) — `web-components/components/generate-an-api-key.md`
 - [Grid](web-components/components/grid.md) — `web-components/components/grid.md`
 - [GuideBanner](web-components/components/guide-banner.md) — `web-components/components/guide-banner.md`
 - [Section](web-components/components/heading-section.md) — `web-components/components/heading-section.md`

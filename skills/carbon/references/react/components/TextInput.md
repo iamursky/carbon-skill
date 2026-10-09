@@ -2,6 +2,23 @@
 
 # TextInput
 
+export const getTextInputStoryArgsDef = [
+  `const getTextInputStoryArgs = ({ defaultWidth, onChange, onClick, ...textInputArgs }) => {
+  const handleChange = (event) => {
+    onChange?.({ value: event.target.value });
+  };
+  const handleClick = (event) => {
+    onClick?.({ value: event.target.value });
+  };
+  return {
+    defaultWidth,
+    textInputArgs: { ...textInputArgs, onChange: handleChange, onClick: handleClick },
+  };
+};`,
+];
+
+# TextInput
+
 [Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/TextInput)
 &nbsp;|&nbsp;
 [Usage guidelines](https://www.carbondesignsystem.com/components/text-input/usage)

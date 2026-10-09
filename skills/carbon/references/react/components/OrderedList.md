@@ -19,7 +19,7 @@
 ## Overview
 
 ```jsx
-<div style={{ paddingLeft: '15px' }}>
+<div style={{ paddingLeft: '1.5rem' }}>
 
 </div>
 ```
@@ -27,7 +27,7 @@
 ## Native List Styles
 
 ```jsx
-<div style={{ paddingLeft: '15px' }}>
+<div style={{ paddingLeft: '1.5rem' }}>
 
 </div>
 ```
@@ -35,7 +35,7 @@
 ## Nested
 
 ```jsx
-<div style={{ paddingLeft: '15px' }}>
+<div style={{ paddingLeft: '1.5rem' }}>
 
 </div>
 ```

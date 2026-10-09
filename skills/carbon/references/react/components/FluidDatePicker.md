@@ -15,9 +15,6 @@ export const labelToggletipDef = `const LabelToggletip = () => (
   </span>
 );`;
 
-export const labelToggletipImport =
-  "import { Toggletip, ToggletipButton, ToggletipContent } from '@carbon/react';\nimport { Information } from '@carbon/icons-react';";
-
 # Fluid DatePicker
 
 [Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/FluidDatePicker)

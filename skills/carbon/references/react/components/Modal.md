@@ -2,6 +2,31 @@
 
 # Modal
 
+export const modalFooterDef = [
+  `const modalFooter = (numberOfButtons) => {
+  const secondaryButtons = () => {
+    switch (numberOfButtons) {
+      case '1':
+        return { secondaryButtons: [] };
+      case '2':
+        return { secondaryButtonText: 'Cancel' };
+      case '3':
+        return {
+          secondaryButtons: [
+            { buttonText: 'Keep both', onClick: () => {} },
+            { buttonText: 'Rename', onClick: () => {} },
+          ],
+        };
+      default:
+        return null;
+    }
+  };
+  return { ...secondaryButtons() };
+};`,
+];
+
+# Modal
+
 [Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/Modal)
 &nbsp;|&nbsp;
 [Usage guidelines](https://www.carbondesignsystem.com/components/modal/usage)
