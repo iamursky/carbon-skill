@@ -1,10 +1,5 @@
 > Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/Button/Button.mdx
 
-# Button
-
-export const getIconFromStringImport =
-  "import { Add, Notification, Filter } from '@carbon/icons-react';";
-
 export const getIconFromStringDef = `const getIconFromString = (iconName) => {
   const icons = {
     Add: (props) => <Add {...props} />,

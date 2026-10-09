@@ -2,6 +2,19 @@
 
 # Popover
 
+export const prefixDef = `const prefix = 'cds';`;
+export const checkboxIconImport = `import { Checkbox as CheckboxIcon } from '@carbon/icons-react';`;
+export const useOpenStateDef = `const useOpenState = (open) => {
+  const [isOpen, setIsOpen] = useState(open);
+
+useEffect(() => { setIsOpen(open); }, [open]);
+
+return [isOpen, setIsOpen]; };`; export const autoAlignStoryContainerStyleDef = `const
+autoAlignStoryContainerStyle = { display: 'grid', placeItems: 'center', width: '200vw',
+minWidth: '1200px', height: '200vh', minHeight: '1200px', };`;
+
+# Popover
+
 [Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/Popover)
 &nbsp;|&nbsp;
 [Usage guidelines](https://www.carbondesignsystem.com/components/popover/usage)

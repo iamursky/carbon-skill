@@ -2,6 +2,18 @@
 
 # Select
 
+export const selectItemsDef = `const selectItems = (
+  <>
+    <SelectItem value="" text="Choose a region" />
+    <SelectItem value="us-south" text="Dallas (us-south)" />
+    <SelectItem value="us-east" text="Washington, DC (us-east)" />
+    <SelectItem value="eu-de" text="Frankfurt (eu-de)" />
+    <SelectItem value="au-syd" text="Sydney (au-syd)" />
+  </>
+);`;
+
+# Select
+
 [Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/Select)
 &nbsp;|&nbsp;
 [Usage guidelines](https://www.carbondesignsystem.com/components/select/usage)

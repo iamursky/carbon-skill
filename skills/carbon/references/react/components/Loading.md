@@ -2,6 +2,28 @@
 
 # Loading
 
+export const useStartLoadingDef = [
+  `const OVERLAY_LOADING_DURATION_MS = 2000;`,
+  `const useStartLoading = () => {
+  const [isActive, setIsActive] = useState(false);
+  const timeoutRef = useRef(null);
+  const startLoading = () => {
+    clearTimeout(timeoutRef.current);
+    setIsActive(true);
+    timeoutRef.current = setTimeout(
+      () => setIsActive(false),
+      OVERLAY_LOADING_DURATION_MS
+    );
+  };
+  useEffect(() => {
+    return () => clearTimeout(timeoutRef.current);
+  }, []);
+  return { isActive, startLoading };
+};`,
+];
+
+# Loading
+
 [Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/Loading)
 &nbsp;|&nbsp;
 [Usage guidelines](https://www.carbondesignsystem.com/components/loading/usage)

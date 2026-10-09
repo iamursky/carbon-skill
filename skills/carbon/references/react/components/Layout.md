@@ -2,6 +2,36 @@
 
 # Layout
 
+export const demoDef = `const Demo = () => (
+  <VStack gap={6}>
+    <HStack>
+      <TextInput labelText="<TextInput />" placeholder="Placeholder" />
+      <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+        <Button>&lt;Button /&gt;</Button>
+      </div>
+      <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+        <Tag>&lt;Tag /&gt;</Tag>
+      </div>
+      <TextInput
+        labelText='<TextInput size="sm" />'
+        size="sm"
+        placeholder="Placeholder"
+      />
+      <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+        <Button size="sm">&lt;Button size=&quot;sm&quot; /&gt;</Button>
+      </div>
+      <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+        <Tag size="sm">&lt;Tag size=&quot;sm&quot; /&gt;</Tag>
+      </div>
+    </HStack>
+    <Accordion>
+      <AccordionItem title="<AccordionItem />">Content</AccordionItem>
+    </Accordion>
+  </VStack>
+);`;
+
+# Layout
+
 [Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/Layout)
 
 ## Table of Contents
