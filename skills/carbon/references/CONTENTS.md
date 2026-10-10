@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**299 pages.**
+**302 pages.**
 
 ## @carbon/react — React components
 
@@ -174,6 +174,9 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Card](web-components/components/card.md) — `web-components/components/card.md`
 - [Chat button](web-components/components/chat-button.md) — `web-components/components/chat-button.md`
 - [Checkbox](web-components/components/checkbox.md) — `web-components/components/checkbox.md`
+- [CoachmarkFixed](web-components/components/coachmark-fixed.md) — `web-components/components/coachmark-fixed.md`
+- [CoachmarkOverlayElements](web-components/components/coachmark-overlay-elements.md) — `web-components/components/coachmark-overlay-elements.md`
+- [CoachmarkStacked](web-components/components/coachmark-stacked.md) — `web-components/components/coachmark-stacked.md`
 - [Coachmark](web-components/components/coachmark.md) — `web-components/components/coachmark.md`
 - [Code snippet](web-components/components/code-snippet.md) — `web-components/components/code-snippet.md`
 - [Combo box](web-components/components/combo-box.md) — `web-components/components/combo-box.md`
