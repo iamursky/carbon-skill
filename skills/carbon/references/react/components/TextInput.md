@@ -72,4 +72,4 @@ _The full props/attributes table is generated from the component source. See the
 
 Help us improve this component by providing feedback, asking questions on Slack,
 or updating this file on
-[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/react/src/components/TextInput/TextInput.mdx).TextInputStories,
+[GitHub](https://github.com/carbon-design-system/carbon/edit/main/packages/react/src/components/TextInput/TextInput.mdx).

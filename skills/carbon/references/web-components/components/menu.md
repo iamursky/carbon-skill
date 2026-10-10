@@ -4,6 +4,8 @@
 
 [Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/web-components/src/components/Menu)
 
+## Table of Contents
+
 - [Overview](#overview)
 - [Positioning](#positioning)
 - [Subcomponents](#subcomponents)
