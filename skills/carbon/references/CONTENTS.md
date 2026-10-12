@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**302 pages.**
+**303 pages.**
 
 ## @carbon/react — React components
 
@@ -165,6 +165,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 ## @carbon/web-components — Web Components
 
 - [Accordion](web-components/components/accordion.md) — `web-components/components/accordion.md`
+- [AddSelect](web-components/components/add-select.md) — `web-components/components/add-select.md`
 - [AI Label](web-components/components/ai-label.md) — `web-components/components/ai-label.md`
 - [AI Skeleton](web-components/components/ai-skeleton.md) — `web-components/components/ai-skeleton.md`
 - [Auto align](web-components/components/autoalign.md) — `web-components/components/autoalign.md`
