@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**303 pages.**
+**305 pages.**
 
 ## @carbon/react — React components
 
@@ -217,6 +217,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Icon button](web-components/components/icon-button.md) — `web-components/components/icon-button.md`
 - [Icon indicator](web-components/components/icon-indicator.md) — `web-components/components/icon-indicator.md`
 - [Icon](web-components/components/icon.md) — `web-components/components/icon.md`
+- [Import and Upload](web-components/components/import-and-upload.md) — `web-components/components/import-and-upload.md`
 - [Inline loading](web-components/components/inline-loading.md) — `web-components/components/inline-loading.md`
 - [InterstitialScreen](web-components/components/interstitial-screen.md) — `web-components/components/interstitial-screen.md`
 - [Layer](web-components/components/layer.md) — `web-components/components/layer.md`
@@ -236,6 +237,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [OverflowMenu](web-components/components/overflow-menu.feature-flag.md) — `web-components/components/overflow-menu.feature-flag.md`
 - [Overflow menu](web-components/components/overflow-menu.md) — `web-components/components/overflow-menu.md`
 - [Page Header Deprecated](web-components/components/page-header-deprecated.md) — `web-components/components/page-header-deprecated.md`
+- [Page header](web-components/components/page-header.md) — `web-components/components/page-header.md`
 - [Pagination Nav](web-components/components/pagination-nav.md) — `web-components/components/pagination-nav.md`
 - [Pagination](web-components/components/pagination.md) — `web-components/components/pagination.md`
 - [Password Input](web-components/components/password-input.md) — `web-components/components/password-input.md`
