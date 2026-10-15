@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**305 pages.**
+**309 pages.**
 
 ## @carbon/react — React components
 
@@ -14,6 +14,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Accordion](react/components/Accordion.md) — `react/components/Accordion.md`
 - [ActionSet](react/components/ActionSet.md) — `react/components/ActionSet.md`
 - [AddSelect](react/components/AddSelect.md) — `react/components/AddSelect.md`
+- [Add and select patterns](react/components/AddSelectOverview.md) — `react/components/AddSelectOverview.md`
 - [AspectRatio](react/components/AspectRatio.md) — `react/components/AspectRatio.md`
 - [BigNumber](react/components/BigNumber.md) — `react/components/BigNumber.md`
 - [Breadcrumb](react/components/Breadcrumb.md) — `react/components/Breadcrumb.md`
@@ -96,6 +97,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [MenuButton](react/components/MenuButton.md) — `react/components/MenuButton.md`
 - [Feature Flags for Modal](react/components/Modal.featureflag.md) — `react/components/Modal.featureflag.md`
 - [Modal](react/components/Modal.md) — `react/components/Modal.md`
+- [MultiAddSelect pattern](react/components/MultiAddSelect.md) — `react/components/MultiAddSelect.md`
 - [Dynamically set floating styles](react/components/MultiSelect.DynamicStyles.featureflag.md) — `react/components/MultiSelect.DynamicStyles.featureflag.md`
 - [MultiSelect](react/components/MultiSelect.md) — `react/components/MultiSelect.md`
 - [ActionableNotification](react/components/Notification.featureflag.md) — `react/components/Notification.featureflag.md`
@@ -123,6 +125,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Select](react/components/Select.md) — `react/components/Select.md`
 - [ShapeIndicator](react/components/ShapeIndicator.md) — `react/components/ShapeIndicator.md`
 - [SidePanel](react/components/SidePanel.md) — `react/components/SidePanel.md`
+- [SingleAddSelect pattern](react/components/SingleAddSelect.md) — `react/components/SingleAddSelect.md`
 - [SkeletonIcon](react/components/SkeletonIcon.md) — `react/components/SkeletonIcon.md`
 - [SkeletonPlaceholder](react/components/SkeletonPlaceholder.md) — `react/components/SkeletonPlaceholder.md`
 - [SkeletonText](react/components/SkeletonText.md) — `react/components/SkeletonText.md`
@@ -250,6 +253,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Select](web-components/components/select.md) — `web-components/components/select.md`
 - [Shape indicator](web-components/components/shape-indicator.md) — `web-components/components/shape-indicator.md`
 - [SidePanel](web-components/components/side-panel.md) — `web-components/components/side-panel.md`
+- [Single add select](web-components/components/single-add-select.md) — `web-components/components/single-add-select.md`
 - [Skeleton icon](web-components/components/skeleton-icon.md) — `web-components/components/skeleton-icon.md`
 - [Skeleton placeholder](web-components/components/skeleton-placeholder.md) — `web-components/components/skeleton-placeholder.md`
 - [Skeleton text](web-components/components/skeleton-text.md) — `web-components/components/skeleton-text.md`
