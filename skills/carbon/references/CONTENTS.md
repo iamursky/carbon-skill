@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**309 pages.**
+**311 pages.**
 
 ## @carbon/react — React components
 
@@ -119,6 +119,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [ProgressIndicator](react/components/ProgressIndicator.md) — `react/components/ProgressIndicator.md`
 - [RadioButton](react/components/RadioButton.md) — `react/components/RadioButton.md`
 - [Resizer](react/components/Resizer.md) — `react/components/Resizer.md`
+- [Saving](react/components/Saving.md) — `react/components/Saving.md`
 - [ScrollGradient](react/components/ScrollGradient.md) — `react/components/ScrollGradient.md`
 - [Search](react/components/Search.md) — `react/components/Search.md`
 - [Section](react/components/Section.md) — `react/components/Section.md`
@@ -157,6 +158,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [UIShell](react/components/UIShell.md) — `react/components/UIShell.md`
 - [UnorderedList](react/components/UnorderedList.md) — `react/components/UnorderedList.md`
 - [UserAvatar](react/components/UserAvatar.md) — `react/components/UserAvatar.md`
+- [Web terminal](react/components/WebTerminal.md) — `react/components/WebTerminal.md`
 - [Definition Tooltip](react/components/definition-tooltip-overview.md) — `react/components/definition-tooltip-overview.md`
 - [ModalWrapper deprecation](react/components/migration.md) — `react/components/migration.md`
 - [Text Direction](react/components/text-direction-overview.md) — `react/components/text-direction-overview.md`
@@ -301,7 +303,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [@carbon/upgrade](elements/upgrade.md) — `elements/upgrade.md`
 - [@carbon/utilities-react](elements/utilities-react.md) — `elements/utilities-react.md`
 - [@carbon/utilities](elements/utilities.md) — `elements/utilities.md`
-- [`@carbon/web-components`](elements/web-components.md) — `elements/web-components.md`
+- [@carbon/web-components](elements/web-components.md) — `elements/web-components.md`
 
 ## Guides (styling, a11y, icons, feature flags)
 
