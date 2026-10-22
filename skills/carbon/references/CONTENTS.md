@@ -4,13 +4,14 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**311 pages.**
+**314 pages.**
 
 ## @carbon/react — React components
 
 - [AILabel](react/components/AILabel.md) — `react/components/AILabel.md`
 - [AILabel](react/components/AILabelDataTable.md) — `react/components/AILabelDataTable.md`
 - [AI Skeleton](react/components/AISkeleton.md) — `react/components/AISkeleton.md`
+- [About Modal](react/components/AboutModal.md) — `react/components/AboutModal.md`
 - [Accordion](react/components/Accordion.md) — `react/components/Accordion.md`
 - [ActionSet](react/components/ActionSet.md) — `react/components/ActionSet.md`
 - [AddSelect](react/components/AddSelect.md) — `react/components/AddSelect.md`
@@ -169,6 +170,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 
 ## @carbon/web-components — Web Components
 
+- [About modal](web-components/components/about-modal.md) — `web-components/components/about-modal.md`
 - [Accordion](web-components/components/accordion.md) — `web-components/components/accordion.md`
 - [AddSelect](web-components/components/add-select.md) — `web-components/components/add-select.md`
 - [AI Label](web-components/components/ai-label.md) — `web-components/components/ai-label.md`
@@ -251,6 +253,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [ProgressIndicator](web-components/components/progress-indicator.md) — `web-components/components/progress-indicator.md`
 - [Radio button](web-components/components/radio-button.md) — `web-components/components/radio-button.md`
 - [Resizer](web-components/components/resizer.md) — `web-components/components/resizer.md`
+- [Saving](web-components/components/saving.md) — `web-components/components/saving.md`
 - [Search](web-components/components/search.md) — `web-components/components/search.md`
 - [Select](web-components/components/select.md) — `web-components/components/select.md`
 - [Shape indicator](web-components/components/shape-indicator.md) — `web-components/components/shape-indicator.md`
