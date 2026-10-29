@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**314 pages.**
+**315 pages.**
 
 ## @carbon/react — React components
 
@@ -201,6 +201,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Dialog](web-components/components/dialog.md) — `web-components/components/dialog.md`
 - [Dropdown](web-components/components/dropdown.md) — `web-components/components/dropdown.md`
 - [Edit in place](web-components/components/edit-in-place.md) — `web-components/components/edit-in-place.md`
+- [Empty State](web-components/components/empty-state.md) — `web-components/components/empty-state.md`
 - [Export](web-components/components/export-modal.md) — `web-components/components/export-modal.md`
 - [Feature Flags](web-components/components/feature-flags.md) — `web-components/components/feature-flags.md`
 - [File uploader](web-components/components/file-uploader.md) — `web-components/components/file-uploader.md`
