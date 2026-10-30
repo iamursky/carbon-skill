@@ -15,10 +15,6 @@
 - [Inline notification & Toast notification](#inline-notification-and-toast-notification)
 - [Callout](#callout)
 - [Component API](#component-api)
-- [Actionable](#actionable)
-- [Inline](#inline)
-- [Toast](#toast)
-- [Callout](#callout-1)
 - [CDN](#cdn)
 - [Feedback](#feedback)
 
@@ -62,14 +58,6 @@ This is the most passive notification component and is essentially just a styled
 div. If you place actions or interactive elements within this component, place
 an `aria-describedby` on the interactive element with a value that matches the
 `title-id` attribute.
-
-## Actionable
-
-## Inline
-
-## Toast
-
-## Callout
 
 ## Component API
 
