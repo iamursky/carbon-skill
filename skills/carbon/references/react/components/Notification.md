@@ -17,8 +17,6 @@
 - [Component API](#component-api)
 - [Actionable](#actionable)
   - [Using the `role` prop](#using-the-role-prop)
-- [Inline](#inline)
-- [Toast](#toast)
 - [Feedback](#feedback)
 
 ## Overview
@@ -86,10 +84,6 @@ user. Two viable options include:
 - Collecting notifications in a persistent place in the app (a "drawer" or "side
   panel") and announcing to the user how they can navigate to that place to
   review all notifications and optionally take action on it.
-
-## Inline
-
-## Toast
 
 ## Feedback
 
