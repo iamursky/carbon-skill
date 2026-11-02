@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**316 pages.**
+**320 pages.**
 
 ## @carbon/react — React components
 
@@ -193,6 +193,10 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Contained list](web-components/components/contained-list.md) — `web-components/components/contained-list.md`
 - [Content switcher](web-components/components/content-switcher.md) — `web-components/components/content-switcher.md`
 - [Copy button](web-components/components/copy-button.md) — `web-components/components/copy-button.md`
+- [Create Full Page](web-components/components/create-full-page.md) — `web-components/components/create-full-page.md`
+- [CreateModal](web-components/components/create-modal.md) — `web-components/components/create-modal.md`
+- [Create sidepanel](web-components/components/create-side-panel.md) — `web-components/components/create-side-panel.md`
+- [CreateTearsheet](web-components/components/create-tearsheet.md) — `web-components/components/create-tearsheet.md`
 - [AI Label in DataTable](web-components/components/data-table-ai-label.md) — `web-components/components/data-table-ai-label.md`
 - [Data table](web-components/components/data-table.md) — `web-components/components/data-table.md`
 - [Date picker](web-components/components/date-picker-v2.md) — `web-components/components/date-picker-v2.md`
