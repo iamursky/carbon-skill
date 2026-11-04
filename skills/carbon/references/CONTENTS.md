@@ -4,7 +4,7 @@ Faithful Markdown conversion of the Carbon Design System practitioner docs, gene
 
 Design and usage guidance for the system as a whole lives at https://www.carbondesignsystem.com.
 
-**320 pages.**
+**323 pages.**
 
 ## @carbon/react — React components
 
@@ -21,6 +21,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Breadcrumb](react/components/Breadcrumb.md) — `react/components/Breadcrumb.md`
 - [Buttons](react/components/Button.md) — `react/components/Button.md`
 - [Card](react/components/Card.md) — `react/components/Card.md`
+- [Carousel Utility](react/components/Carousel.md) — `react/components/Carousel.md`
 - [Checkbox](react/components/Checkbox.md) — `react/components/Checkbox.md`
 - [ClassPrefix](react/components/ClassPrefix.md) — `react/components/ClassPrefix.md`
 - [Coachmark](react/components/Coachmark.md) — `react/components/Coachmark.md`
@@ -47,6 +48,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [DataTable](react/components/DataTable.md) — `react/components/DataTable.md`
 - [Date Picker](react/components/DatePicker.md) — `react/components/DatePicker.md`
 - [Date picker](react/components/DatePickerV2.md) — `react/components/DatePickerV2.md`
+- [Date Time Format](react/components/DateTimeFormat.md) — `react/components/DateTimeFormat.md`
 - [DefinitionTooltip](react/components/DefinitionTooltip.md) — `react/components/DefinitionTooltip.md`
 - [Delete and remove](react/components/DeleteAndRemove.md) — `react/components/DeleteAndRemove.md`
 - [Dialog](react/components/Dialog.md) — `react/components/Dialog.md`
@@ -162,6 +164,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [UserAvatar](react/components/UserAvatar.md) — `react/components/UserAvatar.md`
 - [Web terminal](react/components/WebTerminal.md) — `react/components/WebTerminal.md`
 - [Definition Tooltip](react/components/definition-tooltip-overview.md) — `react/components/definition-tooltip-overview.md`
+- [makeDraggable](react/components/makeDraggable.md) — `react/components/makeDraggable.md`
 - [ModalWrapper deprecation](react/components/migration.md) — `react/components/migration.md`
 - [Text Direction](react/components/text-direction-overview.md) — `react/components/text-direction-overview.md`
 - [Use Layer](react/components/use-layer-overview.md) — `react/components/use-layer-overview.md`
