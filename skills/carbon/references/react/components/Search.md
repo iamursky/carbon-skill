@@ -19,6 +19,14 @@
 
 ## Expandable
 
+When collapsed, the magnifier shows a tooltip above the trigger. Use
+`tooltipAlignment` to change its direction, for example when the search sits at
+the top edge of a container:
+
+```jsx
+<ExpandableSearch labelText="Search" tooltipAlignment="bottom" />
+```
+
 ## Component API
 
 _The full props/attributes table is generated from the component source. See the **Source code** link at the top of this page, or the live API table in [Storybook](https://react.carbondesignsystem.com)._
