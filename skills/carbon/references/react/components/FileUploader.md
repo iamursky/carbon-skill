@@ -23,6 +23,13 @@
 
 ## Overview
 
+When `size` is omitted, upload buttons and file items inherit their size from
+the surrounding
+[layout context](https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/?path=/docs/preview-preview-layout--overview), within their
+supported size ranges. Without a size context, upload buttons default to `md`
+and file items default to `lg`. An explicit `size` takes precedence over the
+inherited size.
+
 ## Drag And Drop
 
 #### Drag And Drop Upload Container Example Application
