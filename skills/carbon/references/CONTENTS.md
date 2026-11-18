@@ -277,7 +277,7 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Structured list](web-components/components/structured-list.md) — `web-components/components/structured-list.md`
 - [Tabs](web-components/components/tabs.md) — `web-components/components/tabs.md`
 - [Tag](web-components/components/tag.md) — `web-components/components/tag.md`
-- [Tearsheet](web-components/components/tearsheet.md) — `web-components/components/tearsheet.md`
+- [Tearsheet (New Composable)](web-components/components/tearsheet.md) — `web-components/components/tearsheet.md`
 - [Text Input](web-components/components/text-input.md) — `web-components/components/text-input.md`
 - [Text Area](web-components/components/textarea.md) — `web-components/components/textarea.md`
 - [Tile Feature Flags](web-components/components/tile.featureflag.md) — `web-components/components/tile.featureflag.md`

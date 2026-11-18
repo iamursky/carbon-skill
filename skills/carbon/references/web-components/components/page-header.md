@@ -2,16 +2,6 @@
 
 # Page header
 
-```jsx
-<Unstyled style={{ marginBottom: '1.5rem' }}>
-  <cds-inline-notification
-    kind="info"
-    title="Migrated component:"
-    subtitle="This component has been migrated from Carbon for IBM Products. While visible in the v12 Storybook, migrated components are not available in the published v11 package and enabling enable-v12-release does not expose them — they will be part of the public @carbon/web-components API when v12 ships."
-  />
-</Unstyled>
-```
-
 ## Getting started
 
 Here's a quick example to get you started.
@@ -275,7 +265,7 @@ This component is also available via CDN.
 
 ```html
 // SPECIFIC VERSION (available starting v2.0.0)
-<script type="module" src="https://1.www.s81c.com/common/carbon/web-components/version/v2.68.0-rc.0/page-header.min.js"></script>
+<script type="module" src="https://1.www.s81c.com/common/carbon/web-components/version/v2.68.0/page-header.min.js"></script>
 ```
 
 ## Feedback
