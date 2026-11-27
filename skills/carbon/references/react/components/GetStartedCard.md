@@ -31,7 +31,7 @@ disabled behavior.
 > be built and extended further.
 
 To build this pattern, you can use the `GetStartedCard` component recipe from
-`example/components/GetStartedCard.tsx`, which composes:
+`components/GetStartedCard.tsx`, which composes:
 
 - `Card`, `Card.Header`, `Card.Title` and `Card.Body` from
   `preview__Card`
@@ -45,12 +45,6 @@ const { Card } = preview__Card;
 ```
 
 ## Example usage
-
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/GetStartedCard/example)
-> example implementation.
-
-[![Edit get-started-card-pattern](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/GetStartedCard/example)
 
 ### Example
 

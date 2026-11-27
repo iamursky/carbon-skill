@@ -67,5 +67,5 @@ before confirming.
 Reference implementation:
 
 ```text
-packages/react/src/examples/AddSelect/example/components/SingleAddSelect/SingleAddSelect.tsx
+packages/react/src/examples/AddSelect/components/SingleAddSelect/SingleAddSelect.tsx
 ```

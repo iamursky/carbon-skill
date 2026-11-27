@@ -48,12 +48,6 @@ import {
 
 ## Example usage
 
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateTearsheetNarrow/example)
-> example implementation.
-
-[![Edit react-patterns](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateTearsheetNarrow/example)
-
 ## Default
 
 The default CreateTearsheetNarrow pattern provides a basic single-form creation

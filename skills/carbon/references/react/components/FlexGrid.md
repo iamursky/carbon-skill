@@ -1,13 +1,5 @@
 > Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/Grid/FlexGrid.mdx
 
-export const demoContentDef = `function DemoContent({ children }) {
-  return (
-    <div className="outside">
-      <div className="inside">{children}</div>
-    </div>
-  );
-}`;
-
 # FlexGrid
 
 [Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/Grid)

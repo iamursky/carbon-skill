@@ -62,11 +62,11 @@ Design and usage guidance for the system as a whole lives at https://www.carbond
 - [Enhanced FileUploader Callbacks](react/components/FileUploader.featureflag.md) — `react/components/FileUploader.featureflag.md`
 - [FileUploader](react/components/FileUploader.md) — `react/components/FileUploader.md`
 - [FlexGrid](react/components/FlexGrid.md) — `react/components/FlexGrid.md`
-- [FluidComboBox](react/components/FluidComboBox.md) — `react/components/FluidComboBox.md`
-- [FluidDatePicker](react/components/FluidDatePicker.md) — `react/components/FluidDatePicker.md`
-- [FluidDropdown](react/components/FluidDropdown.md) — `react/components/FluidDropdown.md`
+- [Fluid ComboBox](react/components/FluidComboBox.md) — `react/components/FluidComboBox.md`
+- [Fluid DatePicker](react/components/FluidDatePicker.md) — `react/components/FluidDatePicker.md`
+- [Fluid Dropdown](react/components/FluidDropdown.md) — `react/components/FluidDropdown.md`
 - [Fluid Form](react/components/FluidForm.md) — `react/components/FluidForm.md`
-- [FluidMultiSelect](react/components/FluidMultiSelect.md) — `react/components/FluidMultiSelect.md`
+- [Fluid Multiselect](react/components/FluidMultiSelect.md) — `react/components/FluidMultiSelect.md`
 - [Fluid NumberInput](react/components/FluidNumberInput.md) — `react/components/FluidNumberInput.md`
 - [Fluid PasswordInput](react/components/FluidPasswordInput.md) — `react/components/FluidPasswordInput.md`
 - [Fluid Search](react/components/FluidSearch.md) — `react/components/FluidSearch.md`

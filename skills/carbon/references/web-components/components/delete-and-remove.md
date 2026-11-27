@@ -45,12 +45,6 @@ import '@carbon/web-components/es/components/link/link.js';
 
 ## Example usage
 
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/web-components/src/examples/delete-and-remove/example)
-> example implementation.
-
-[![Edit carbon-web-components](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/web-components/src/examples/delete-and-remove/example)
-
 ### Example
 
 Here's a quick example of high impact deletion to get you started.
