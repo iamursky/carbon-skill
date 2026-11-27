@@ -25,7 +25,7 @@ content to display.
 > be built and extended further.
 
 To build this pattern, you can use the `EmptyState` component recipe from
-`example/components/EmptyState.tsx` alongside:
+`components/EmptyState.tsx` alongside:
 
 - [DataTable](https://react.carbondesignsystem.com/?path=/docs/components-datatable)
 - [Tile](https://react.carbondesignsystem.com/?path=/docs/components-tile)
@@ -33,12 +33,6 @@ To build this pattern, you can use the `EmptyState` component recipe from
 - [Link](https://react.carbondesignsystem.com/?path=/docs/components-link)
 
 ## Example usage
-
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/EmptyState/example)
-> example implementation.
-
-[![Edit empty-state-pattern](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/EmptyState/example)
 
 ## Isometric illustration
 

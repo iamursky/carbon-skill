@@ -52,12 +52,6 @@ import {
 
 ## Example usage
 
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/ExportModal/example)
-> example implementation.
-
-[![Edit react-patterns](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/ExportModal/example)
-
 ## Standard
 
 The standard export modal presents a text input so the user can name the file

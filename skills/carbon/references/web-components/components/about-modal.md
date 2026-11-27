@@ -40,12 +40,6 @@ import '@carbon/web-components/es/components/link/index.js';
 
 ### Example usage
 
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/web-components/src/examples/about-modal/example)
-> example implementation.
-
-[![Edit carbon-web-components](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/web-components/src/examples/about-modal/example)
-
 ```html
 <cds-modal aria-label="About this product" ?open="${this._open}">
   <div class="c4p--about-modal__logo">

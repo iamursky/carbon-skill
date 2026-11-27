@@ -21,12 +21,6 @@ These components are used within the `standard-export-modal` and
 `export-modal-preformatted-extension` wrapper components to handle state
 management.
 
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/web-components/src/examples/export-modal/example)
-> example implementation.
-
-[![Edit carbon-web-components](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/web-components/src/examples/export-modal/example)
-
 ## Basic implementation
 
 When a file’s name can be edited before exporting, a dialog containing an

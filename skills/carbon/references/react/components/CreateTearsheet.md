@@ -20,12 +20,6 @@ for building multi-step workflow interfaces for creating resources or completing
 complex tasks. It demonstrates how to compose the Tearsheet component with
 StepFlow from `@carbon/utilities-react` for managing step navigation and state.
 
-> 💡 Try our
-> [StackBlitz example](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateTearsheet/example)
-> for a complete implementation.
-
-[![Edit react-patterns](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateTearsheet/example)
-
 ## What is a Pattern?
 
 Unlike components that are exported from the package, **patterns are recipes**
@@ -49,7 +43,7 @@ The CreateTearsheet pattern consists of:
 ## Getting Started
 
 1. **Copy the pattern code** from the
-   [example directory](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateTearsheet/example/components)
+   [example directory](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateTearsheet/components)
    into your project
 2. **Install dependencies**: `@carbon/react`, `@carbon/utilities-react`
 3. **Import and use** the pattern components in your application

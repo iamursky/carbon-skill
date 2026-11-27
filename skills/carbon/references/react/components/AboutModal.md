@@ -29,12 +29,6 @@ To build this pattern, we recommend including the following ingredients:
 
 ### Example usage
 
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/AboutModal/example)
-> example implementation.
-
-[![Edit react-patterns](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/AboutModal/example)
-
 ### With additional content
 
 Some products may be legally required to display logos of technologies used to

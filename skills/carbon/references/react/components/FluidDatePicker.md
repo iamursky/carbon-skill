@@ -1,20 +1,5 @@
 > Source: https://github.com/carbon-design-system/carbon/blob/main/packages/react/src/components/FluidDatePicker/FluidDatePicker.mdx
 
-# FluidDatePicker
-
-export const labelToggletipDef = `const LabelToggletip = () => (
-  <span className="fluid-date-picker-story__toggletip">
-    <Toggletip align="top-left">
-      <ToggletipButton label="Show information">
-        <Information />
-      </ToggletipButton>
-      <ToggletipContent>
-        <p>Additional field information here.</p>
-      </ToggletipContent>
-    </Toggletip>
-  </span>
-);`;
-
 # Fluid DatePicker
 
 [Source code](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/components/FluidDatePicker)

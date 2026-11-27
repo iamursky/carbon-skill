@@ -41,12 +41,6 @@ import { Form, TextInput, Dropdown, FormGroup, Button } from '@carbon/react';
 
 ## Example usage
 
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateSidePanel/example)
-> example implementation.
-
-[![Edit react-patterns](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateSidePanel/example)
-
 ## Default
 
 The default CreateSidePanel pattern provides a focused single-form creation

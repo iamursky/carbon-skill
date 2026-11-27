@@ -51,12 +51,6 @@ import {
 
 ## Example usage
 
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/DeleteAndRemove/example)
-> example implementation.
-
-[![Edit react-patterns](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/DeleteAndRemove/example)
-
 ### Example
 
 Here's a quick example of high impact deletion to get you started.

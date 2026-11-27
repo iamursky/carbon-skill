@@ -22,12 +22,6 @@ for building multi-step workflow interfaces for creating resources using a full
 page experience. It demonstrates how to compose a full-page layout with StepFlow
 from `@carbon/utilities-react` for managing step navigation and state.
 
-> 💡 Try our
-> [StackBlitz example](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateFullPage/example)
-> for a complete implementation.
-
-[![Edit react-patterns](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateFullPage/example)
-
 ## What is a Pattern?
 
 Unlike components that are exported from the package, **patterns are recipes**
@@ -54,7 +48,7 @@ The CreateFullPage pattern consists of:
 ## Getting Started
 
 1. **Copy the pattern code** from the
-   [example directory](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateFullPage/example/components)
+   [example directory](https://github.com/carbon-design-system/carbon/tree/main/packages/react/src/examples/CreateFullPage/components)
    into your project
 2. **Install dependencies**: `@carbon/react`, `@carbon/utilities-react`
 3. **Import and use** the pattern components in your application

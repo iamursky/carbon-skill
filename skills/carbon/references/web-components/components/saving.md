@@ -38,8 +38,6 @@ import '@carbon/web-components/es/components/inline-loading/index.js';
 
 ## Example usage
 
-[![Edit carbon-web-components](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/web-components/src/examples/saving/example)
-
 ### Auto saving
 
 Changes are saved as the user types. A status message below the field shows

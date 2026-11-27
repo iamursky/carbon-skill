@@ -168,5 +168,5 @@ Typical usage includes:
 Reference implementation:
 
 ```text
-packages/react/src/examples/AddSelect/example/components/MultiAddSelect/MultiAddSelect.tsx
+packages/react/src/examples/AddSelect/components/MultiAddSelect/MultiAddSelect.tsx
 ```

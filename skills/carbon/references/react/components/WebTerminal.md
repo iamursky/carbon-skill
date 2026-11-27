@@ -35,7 +35,7 @@ To build this pattern, we recommend including the following components:
 - Header / HeaderGlobalAction - application chrome and terminal launch trigger
 
 ```jsx
-// Copy the pattern files from the example/components directory into your project
+// Copy the pattern files from the components directory into your project
 import {
   WebTerminal,
   WebTerminalProvider,
@@ -71,12 +71,6 @@ The WebTerminal pattern consists of:
 - `WebTerminalContentWrapper.tsx` — optional content layout adjustment
 
 ## Getting started
-
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/WebTerminal/example)
-> example implementation.
-
-[![Edit react-patterns](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/react/src/examples/WebTerminal/example)
 
 1. **Copy the pattern code** from the
    [example directory](https://github.com/carbon-design-system/ibm-products/tree/main/packages/ibm-products/src/patterns/webTerminal/example/components)

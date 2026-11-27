@@ -26,12 +26,6 @@ To build this pattern, we recommend including the following components:
 - [cds-button](https://web-components.carbondesignsystem.com/?path=/docs/components-button--overview) - Action buttons
 - [cds-toast-notification](https://web-components.carbondesignsystem.com/?path=/docs/components-notifications-toast--overview) - Success feedback
 
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/web-components/src/examples/add-select/example)
-> example implementation.
-
-[![Edit carbon-web-components](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/carbon/tree/main/packages/web-components/src/examples/add-select/example)
-
 ## Variants
 
 ### Default

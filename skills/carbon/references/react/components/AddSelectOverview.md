@@ -52,7 +52,7 @@ all interaction logic
 
 ## How to use
 
-1. **Copy the component file** from `example/components/`
+1. **Copy the component file** from `components/`
 2. **Import and use** in your application
 3. **Customize props** to match your requirements
 4. **Style as needed** using Carbon tokens
@@ -61,13 +61,12 @@ all interaction logic
 
 ```
 patterns/AddSelect/
-├── example/
-│   ├── components/           # 🎯 COPY-PASTE READY CODE
-│   │   ├── MultiAddSelect.tsx
-│   │   └── SingleAddSelect.tsx
-│   └── preview-components/   # Demo wrappers (for Storybook only)
-│       ├── MultiAddSelectDefault.tsx
-│       └── SingleAddSelectDefault.tsx
+├── components/               # 🎯 COPY-PASTE READY CODE
+│   ├── MultiAddSelect.tsx
+│   └── SingleAddSelect.tsx
+├── preview-components/       # Demo wrappers (for Storybook only)
+│   ├── MultiAddSelectDefault.tsx
+│   └── SingleAddSelectDefault.tsx
 ├── MultiAddSelect/
 │   ├── MultiAddSelect.stories.js
 │   └── MultiAddSelect.mdx
@@ -109,12 +108,6 @@ Both patterns include:
 
 ## Example usage
 
-> 💡 Check our
-> [Stackblitz](https://stackblitz.com/github/carbon-design-system/ibm-products/tree/main/packages/ibm-products/src/patterns/AddSelect/example)
-> example implementation.
-
-[![Edit react-patterns](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/carbon-design-system/ibm-products/tree/main/packages/ibm-products/src/patterns/AddSelect/example)
-
 ## Related resources
 
 - [AddSelect Component](https://github.com/carbon-design-system/carbon/blob/main/docs/components-addselect--docs)
@@ -126,4 +119,4 @@ Both patterns include:
 For questions or issues:
 
 - [GitHub Issues](https://github.com/carbon-design-system/ibm-products/issues)
-- [Carbon for IBM Products Slack](https://ibm.enterprise.slack.com/archives/CQGR0HC05)
+- [Carbon Design System Slack](https://ibm.enterprise.slack.com/archives/C0M053VPT)
